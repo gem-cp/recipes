@@ -10,24 +10,31 @@ document.addEventListener('DOMContentLoaded', () => {
 
     async function loadRecipes() {
         try {
-            const readmeResponse = await fetch('README.md');
-            if (!readmeResponse.ok) {
-                throw new Error(`Failed to fetch README.md: ${readmeResponse.statusText}`);
-            }
-            const readmeContent = await readmeResponse.text();
-            const recipeLinks = parseReadmeForRecipeLinks(readmeContent);
+            // Hardcoded list of recipe file paths
+            const recipeFilePaths = [
+                "docs/chutneys.md",
+                "docs/gebratener-eierreis.md",
+                "docs/palak-paneer.md"
+            ];
 
-            if (recipeLinks.length === 0) {
-                recipeListElement.innerHTML = '<p>Keine Rezepte im README gefunden.</p>';
-                // Ensure swiper is cleared if it was somehow initialized before recipes loaded
+            if (recipeFilePaths.length === 0) {
+                recipeListElement.innerHTML = '<p>Keine Rezepte definiert.</p>';
                 if(swiperInstance) swiperInstance.destroy(true, true);
                 swiperInstance = null;
                 return;
             }
 
-            const recipePromises = recipeLinks.map(link => fetchRecipeDetails(link.path, link.name));
+            // The fetchRecipeDetails function expects a path and a defaultName.
+            // We can derive a defaultName from the path.
+            const recipePromises = recipeFilePaths.map(path => {
+                const fileName = path.split('/').pop().replace('.md', '');
+                const defaultName = fileName.replace(/-/g, ' ').replace(/_/g, ' '); // Simple name from filename
+                return fetchRecipeDetails(path, defaultName);
+            });
+
             allRecipes = await Promise.all(recipePromises);
 
+            // Filter out any null results from failed fetches
             allRecipes = allRecipes.filter(recipe => recipe !== null);
 
             displayRecipes(allRecipes);
@@ -35,27 +42,9 @@ document.addEventListener('DOMContentLoaded', () => {
         } catch (error) {
             console.error('Error loading recipes:', error);
             recipeListElement.innerHTML = '<p>Fehler beim Laden der Rezepte. Details siehe Konsole.</p>';
-            if(swiperInstance) swiperInstance.destroy(true, true);
+            if(swiperInstance) swiperInstance.destroy(true, true); // Also destroy swiper on general error
             swiperInstance = null;
         }
-    }
-
-    function parseReadmeForRecipeLinks(readmeContent) {
-        const links = [];
-        const regex = /- \[(.*?)\]\((docs\/.*?\.md)\)/g;
-        let match;
-        while ((match = regex.exec(readmeContent)) !== null) {
-            links.push({ name: match[1], path: match[2] });
-        }
-        if (links.length === 0) {
-            const simpleRegex = /\((docs\/[^)]+\.md)\)/g;
-            while ((match = simpleRegex.exec(readmeContent)) !== null) {
-                const fileName = match[1].split('/').pop().replace('.md', '');
-                const displayName = fileName.replace(/-/g, ' ').replace(/_/g, ' ');
-                links.push({ name: displayName, path: match[1] });
-            }
-        }
-        return links;
     }
 
     async function fetchRecipeDetails(markdownPath, defaultName) {

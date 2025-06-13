@@ -12,9 +12,9 @@ document.addEventListener('DOMContentLoaded', () => {
         try {
             // Hardcoded list of recipe file paths
             const recipeFilePaths = [
-                "docs/chutneys.md",
-                "docs/gebratener-eierreis.md",
-                "docs/palak-paneer.md"
+                "recipes/chutneys.md",
+                "recipes/gebratener-eierreis.md",
+                "recipes/palak-paneer.md"
             ];
 
             if (recipeFilePaths.length === 0) {

@@ -1,6 +1,10 @@
-# Gebratener Eierreis mit Gemüse
+---
+title: Gebratener Eierreis
+description: Ein einfaches und schnelles Rezept für gebratenen Eierreis mit Gemüse.
+image: /assets/img/gebratener-eierreis.png
+---
 
-![Gebratener Eierreis](/assets/images/gebratener-eierreis.png)
+![Gebratener Eierreis]({{ site.baseurl }}{{ page.image }})
 
 **Ergibt:** ca. 2-3 Portionen
 **Vorbereitungszeit:** 15 Minuten

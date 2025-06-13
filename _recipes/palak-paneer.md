@@ -1,13 +1,15 @@
-# Palak Paneer
+---
+title: Palak Paneer
+description: Cremiger Spinat mit indischem Frischkäse
+image: /assets/img/palak-paneer.png
+---
 
-![Palak Paneer](/assets/images/palak-paneer.png)
-(Cremiger Spinat mit indischem Frischkäse)
+![Palak Paneer]({{ site.baseurl }}{{ page.image }})
 
-- [Palak Paneer](#palak-paneer)
-  - [Zutaten](#zutaten)
-  - [Zubereitung](#zubereitung)
-  - [Tipps und Variationen](#tipps-und-variationen)
-  - [Serviervorschlag](#serviervorschlag)
+- [Zutaten](#zutaten)
+- [Zubereitung](#zubereitung)
+- [Tipps und Variationen](#tipps-und-variationen)
+- [Serviervorschlag](#serviervorschlag)
 
 Dieses Rezept zeigt dir, wie du ein Palak Paneer zubereitest, das so gut schmeckt wie im Restaurant – mit einer leuchtend grünen Farbe und einem tiefen, würzigen Aroma.
 

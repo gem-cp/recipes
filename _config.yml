@@ -1,6 +1,10 @@
-# _config.yml
-
 title: Recipes
 description: A collection of recipes
 theme: jekyll-theme-minimal
-baseurl: "/recipes" # Add this line
+baseurl: "/recipes"
+
+# Add this section to define your recipes collection
+collections:
+  recipes:
+    output: true
+    permalink: /:collection/:name

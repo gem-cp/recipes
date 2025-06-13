@@ -1,9 +1,13 @@
-# Chutneys 
+---
+title: Chutneys
+description: Die Saucen sind typische indische Chutneys, die in kleinen Schälchen serviert werden.
+image: /assets/img/chutneys.png
+---
+
+![Chutneys]({{ site.baseurl }}{{ page.image }})
 
 Chutneys sind eine wichtige Komponente der indischen Küche und werden oft als Beilage zu verschiedenen Gerichten serviert. Sie können frisch, gekocht oder eingelegt sein und reichen von süß über sauer bis scharf. Hier sind typische indische Chutneys, die häufig in Restaurants serviert werden.
 
-![Chutneys](/assets/images/chutneys.png)
-![Chutneys]({{ site.baseurl }}/assets/images/chutneys.png)
 Die Saucen sind typische indische Chutneys, die in kleinen Schälchen serviert werden:
 
 1.  **Die grüne Sauce:**

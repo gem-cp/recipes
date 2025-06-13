@@ -1,0 +1,6 @@
+# _config.yml
+
+title: Recipes
+description: A collection of recipes
+theme: jekyll-theme-minimal
+baseurl: "/recipes" # Add this line

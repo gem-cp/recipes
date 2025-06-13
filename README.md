@@ -1,6 +1,6 @@
 # Rezepte
 
-![Banner](/images/banner.png)
+![Banner](/assets/images/banner.png)
 
 Leicht zu kochende und sehr leckere Rezepte.
 

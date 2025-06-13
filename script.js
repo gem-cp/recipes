@@ -157,68 +157,12 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function showRecipeDetail(recipe) {
-        const renderer = new marked.Renderer();
-        // const originalImageRenderer = renderer.image; // Keep a reference to the original if needed, or override directly
-
-        renderer.image = (href, title, text) => {
-            let resolvedHref = href;
-            if (href && !href.startsWith('http://') && !href.startsWith('https://')) {
-                // This is a local path, let's ensure it's correct from the root
-                if (href.startsWith('/images/')) {
-                    // Path is already correctly absolute from root (e.g., /images/foo.png)
-                    resolvedHref = href;
-                } else if (href.startsWith('images/')) {
-                    // Path is relative like images/foo.png, make it absolute from root
-                    resolvedHref = '/' + href;
-                } else {
-                    // Path is just a filename like foo.png, assume it's in /images/
-                    // or it could be an invalid path from markdown.
-                    // For safety, prepend /images/ if it doesn't look like a directory path.
-                    if (href.includes('/')) { // it's some other relative path e.g. ../images/foo.png - this case is tricky for a general solution without knowing the base
-                        // For now, assume such paths are not used based on current project structure.
-                        // If they were, a more complex path resolution logic would be needed.
-                        // Given current structure, we mostly expect /images/ or just filename.
-                        resolvedHref = href; // Or potentially try to resolve, but let's stick to simpler cases.
-                    } else { // Just a filename like "palak-paneer.png"
-                        resolvedHref = '/images/' + href;
-                    }
-                }
-            }
-            // Use the original renderer logic with the potentially modified href
-            // This ensures title and alt text are handled as default.
-            // Note: The default renderer.image is:
-            // Renderer.prototype.image = function(href, title, text) {
-            //   href = cleanUrl(this.options.sanitize, this.options.baseUrl, href);
-            //   if (href === null) {
-            //     return text;
-            //   }
-            //   var out = '<img src="' + href + '" alt="' + text + '"';
-            //   if (title) {
-            //     out += ' title="' + title + '"';
-            //   }
-            //   out += this.options.xhtml ? '/>' : '>';
-            //   return out;
-            // };
-            // We will reconstruct this:
-            if (resolvedHref === null) {
-                return text; // Alt text
-            }
-            let out = '<img src="' + resolvedHref + '" alt="' + text + '"';
-            if (title) {
-                out += ' title="' + title + '"';
-            }
-            out += '>'; // Simpler, no xhtml option needed here for this project
-            return out;
-        };
-
         try {
-            // Use the custom renderer with marked
-            recipeContentElement.innerHTML = marked.parse(recipe.markdown, { renderer: renderer });
+            recipeContentElement.innerHTML = marked.parse(recipe.markdown);
         } catch (e) {
             console.error('Error parsing Markdown:', e);
             recipeContentElement.innerHTML = '<p>Fehler beim Anzeigen des Rezepts. Der Inhalt konnte nicht korrekt umgewandelt werden.</p>';
         }
-
         recipeDetailElement.classList.remove('hidden');
         recipeDetailElement.scrollTop = 0;
     }

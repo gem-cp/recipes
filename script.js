@@ -62,10 +62,40 @@ document.addEventListener('DOMContentLoaded', () => {
                 title = titleMatch[1];
             }
 
-            let imageUrl = '/images/banner.png';
-            const imageMatch = markdown.match(/!\[.*?\]\((.*?)\)/);
-            if (imageMatch && imageMatch[1]) {
-                imageUrl = imageMatch[1];
+            let imageUrl = '/images/banner.png'; // Default image for cards if no image found in MD
+            const imageMatch = markdown.match(/!\[.*?\]\((.*?)\)/); // Find first markdown image
+
+            if (imageMatch && typeof imageMatch[1] === 'string') {
+                let extractedPath = imageMatch[1];
+
+                // Normalize the extracted path
+                if (!extractedPath.startsWith('http://') && !extractedPath.startsWith('https://')) {
+                    if (extractedPath.startsWith('/images/')) {
+                        // Already correct, e.g., /images/foo.png
+                        imageUrl = extractedPath;
+                    } else if (extractedPath.startsWith('images/')) {
+                        // Relative to something, make it /images/foo.png
+                        imageUrl = '/' + extractedPath;
+                    } else if (!extractedPath.includes('/')) {
+                        // Just a filename like foo.png, assume it's in /images/
+                        imageUrl = '/images/' + extractedPath;
+                    } else {
+                        // Some other relative path like ../images/foo.png or similar.
+                        // For this project, we'll assume this isn't standard and default.
+                        // Or, if it's a valid relative path from root that's not /images, it might be kept.
+                        // However, given the 404s (e.g. "chutneys.png"), explicitly targeting /images is safer.
+                        // If an image is truly at the root, e.g. /foo.png, and markdown is ![...](/foo.png),
+                        // then this logic needs to be smarter. For now, assume all recipe images are in /images/.
+                        // If it contains slashes but doesn't fit above, it might be an error or an unsupported path.
+                        // To be safe, if it's not one of the common patterns, we could log a warning
+                        // and keep it, or revert to default. Let's try to be a bit more direct for this project.
+                        // The key is to fix paths like "chutneys.png" becoming "/images/chutneys.png".
+                        imageUrl = '/images/' + extractedPath.split('/').pop(); // take the filename part and put it in /images/
+                    }
+                } else {
+                    // It's an external URL, use as is
+                    imageUrl = extractedPath;
+                }
             }
 
             return {
@@ -157,6 +187,42 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function showRecipeDetail(recipe) {
+        const renderer = new marked.Renderer();
+        // const originalImageRenderer = renderer.image; // Keep a reference to the original if needed, or override directly
+
+        renderer.image = (href, title, text) => {
+            // Add this check at the beginning:
+            if (typeof href !== 'string') {
+                return text; // Return alt text if href is not a string (e.g., null or undefined from ![]())
+            }
+
+            let resolvedHref = href;
+            // Now it's safe to call startsWith and other string methods on href
+            if (!href.startsWith('http://') && !href.startsWith('https://')) {
+                if (href.startsWith('/images/')) {
+                    resolvedHref = href;
+                } else if (href.startsWith('images/')) {
+                    resolvedHref = '/' + href;
+                } else {
+                    if (href.includes('/')) {
+                        resolvedHref = href;
+                    } else {
+                        resolvedHref = '/images/' + href;
+                    }
+                }
+            }
+
+            if (resolvedHref === null) { // Should not happen if typeof href !== 'string' is caught
+                return text;
+            }
+            let out = '<img src="' + resolvedHref + '" alt="' + text + '"';
+            if (title) {
+                out += ' title="' + title + '"';
+            }
+            out += '>';
+            return out;
+        };
+
         try {
             recipeContentElement.innerHTML = marked.parse(recipe.markdown);
         } catch (e) {

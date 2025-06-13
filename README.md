@@ -4,8 +4,8 @@
 
 Leicht zu kochende und sehr leckere Rezepte.
 
-[Chutneys](/docs/chutneys.md)
+[Chutneys](/recipes/chutneys.md)
 
-[Gebratener Eierreis](/docs/gebratener-eierreis.md)
+[Gebratener Eierreis](/recipes/gebratener-eierreis.md)
 
-[Palak Paneer](/docs/palak-paneer.md)
+[Palak Paneer](/recipes/palak-paneer.md)

@@ -224,13 +224,11 @@ document.addEventListener('DOMContentLoaded', () => {
         };
 
         try {
-            // Use the custom renderer with marked
-            recipeContentElement.innerHTML = marked.parse(recipe.markdown, { renderer: renderer });
+            recipeContentElement.innerHTML = marked.parse(recipe.markdown);
         } catch (e) {
             console.error('Error parsing Markdown:', e);
             recipeContentElement.innerHTML = '<p>Fehler beim Anzeigen des Rezepts. Der Inhalt konnte nicht korrekt umgewandelt werden.</p>';
         }
-
         recipeDetailElement.classList.remove('hidden');
         recipeDetailElement.scrollTop = 0;
     }

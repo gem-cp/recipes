@@ -62,7 +62,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 title = titleMatch[1];
             }
 
-            let imageUrl = '/images/banner.png'; // Default image for cards if no image found in MD
+            let imageUrl = '/banner.png'; // Default image for cards if no image found in MD
             const imageMatch = markdown.match(/!\[.*?\]\((.*?)\)/); // Find first markdown image
 
             if (imageMatch && typeof imageMatch[1] === 'string') {
@@ -70,15 +70,15 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 // Normalize the extracted path
                 if (!extractedPath.startsWith('http://') && !extractedPath.startsWith('https://')) {
-                    if (extractedPath.startsWith('/images/')) {
+                    if (extractedPath.startsWith('/recipes/assets/images/')) {
                         // Already correct, e.g., /images/foo.png
                         imageUrl = extractedPath;
-                    } else if (extractedPath.startsWith('images/')) {
+                    } else if (extractedPath.startsWith('assets/images/')) {
                         // Relative to something, make it /images/foo.png
                         imageUrl = '/' + extractedPath;
                     } else if (!extractedPath.includes('/')) {
                         // Just a filename like foo.png, assume it's in /images/
-                        imageUrl = '/images/' + extractedPath;
+                        imageUrl = '/assets/images/' + extractedPath;
                     } else {
                         // Some other relative path like ../images/foo.png or similar.
                         // For this project, we'll assume this isn't standard and default.
@@ -89,8 +89,8 @@ document.addEventListener('DOMContentLoaded', () => {
                         // If it contains slashes but doesn't fit above, it might be an error or an unsupported path.
                         // To be safe, if it's not one of the common patterns, we could log a warning
                         // and keep it, or revert to default. Let's try to be a bit more direct for this project.
-                        // The key is to fix paths like "chutneys.png" becoming "/images/chutneys.png".
-                        imageUrl = '/images/' + extractedPath.split('/').pop(); // take the filename part and put it in /images/
+                        // The key is to fix paths like "chutneys.png" becoming "/assets/images/chutneys.png".
+                        imageUrl = '/assets/images/' + extractedPath.split('/').pop(); // take the filename part and put it in /assets/images/
                     }
                 } else {
                     // It's an external URL, use as is

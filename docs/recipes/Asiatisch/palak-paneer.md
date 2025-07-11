@@ -1,10 +1,6 @@
----
-title: Palak Paneer
-description: Cremiger Spinat mit indischem Frischkäse
-image: /assets/img/palak-paneer.png
----
+# Palak Paneer
 
-![Palak Paneer]({{ site.baseurl }}{{ page.image }})
+![Palak Paneer](../../images/palak-paneer.png)
 
 - [Zutaten](#zutaten)
 - [Zubereitung](#zubereitung)
@@ -55,7 +51,7 @@ Dieses Rezept zeigt dir, wie du ein Palak Paneer zubereitest, das so gut schmeck
 
 ## Zubereitung
 
-**Schritt 1: Spinat vorbereiten (Blanchieren)**
+### Schritt 1: Spinat vorbereiten (Blanchieren)
 
 1. Den frischen Spinat gründlich waschen.
 2. Einen großen Topf mit Wasser zum Kochen bringen. Den Spinat hineingeben und nur **1-2 Minuten** kochen lassen, bis er zusammenfällt.
@@ -65,13 +61,13 @@ Dieses Rezept zeigt dir, wie du ein Palak Paneer zubereitest, das so gut schmeck
 
 *(Bei gefrorenem Spinat: Auftauen lassen, überschüssiges Wasser gut ausdrücken und dann pürieren.)*
 
-**Schritt 2: Paneer vorbereiten (optional, aber empfohlen)**
+### Schritt 2: Paneer vorbereiten (optional, aber empfohlen)
 
 1. In einer Pfanne 1 EL Ghee oder Öl erhitzen.
 2. Die Paneer-Würfel darin bei mittlerer Hitze von allen Seiten goldbraun anbraten. Das gibt ihm eine tolle Textur und verhindert, dass er im Curry zerfällt.
 3. Die angebratenen Würfel aus der Pfanne nehmen und zur Seite stellen.
 
-**Schritt 3: Die Masala (Saucenbasis) zubereiten**
+### Schritt 3: Die Masala (Saucenbasis) zubereiten
 
 1. In derselben Pfanne (oder einem Topf) 2 EL Ghee erhitzen.
 2. Die Kreuzkümmelsamen hinzufügen und warten, bis sie anfangen zu knistern und zu duften.
@@ -80,12 +76,12 @@ Dieses Rezept zeigt dir, wie du ein Palak Paneer zubereitest, das so gut schmeck
 5. Die pürierten Tomaten hinzufügen und alles gut vermischen. Jetzt die Gewürze dazugeben: Kurkuma und Korianderpulver. Mit Salz würzen.
 6. Die Mischung köcheln lassen, bis die Tomaten eingedickt sind und sich das Öl an den Rändern der Pfanne zu lösen beginnt (ca. 5-8 Minuten). Das ist ein Zeichen, dass die Basis fertig ist.
 
-**Schritt 4: Alles zusammenführen**
+### Schritt 4: Alles zusammenführen
 
 1. Das Spinatpüree in die Pfanne zur Masala geben und alles gut vermengen.
 2. Je nach gewünschter Konsistenz etwas Wasser (ca. 100 ml) hinzufügen. Das Curry für 5-7 Minuten bei schwacher Hitze köcheln lassen, damit sich die Aromen verbinden.
 
-**Schritt 5: Fertigstellen und Verfeinern**
+### Schritt 5: Fertigstellen und Verfeinern
 
 1. Die angebratenen Paneer-Würfel zum Curry geben.
 2. Die Sahne (oder Cashew-Creme) unterrühren.
@@ -108,5 +104,3 @@ Palak Paneer schmeckt am besten heiß serviert mit:
 - **Naan-Brot, Roti oder Chapati** zum Eintunken.
 - **Basmati- oder Jeera-Reis**.
 - Ein Klecks Joghurt oder eine Schale Raita (Joghurt-Dip) als kühler Kontrast.
-
-**Guten Appetit!**

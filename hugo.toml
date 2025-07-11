@@ -1,0 +1,35 @@
+baseURL = "https://gem-cp.github.io/recipes/"
+languageCode = "de-de"
+title = "Meine Rezeptsammlung"
+
+# Theme als Modul importieren
+[module]
+  [[module.imports]]
+    path = "github.com/adityatelange/hugo-PaperMod"
+
+# Sag Hugo, wo dein Inhalt und deine Bilder liegen
+contentDir = "docs"
+staticDir = ["docs"]
+
+[params]
+  author = "Christian Plagens"
+  description = "Eine Sammlung meiner Lieblingsrezepte."
+  defaultTheme = "auto" # "light", "dark" oder "auto"
+  ShowShareButtons = true
+  ShowReadingTime = true
+
+  [params.homeInfoParams]
+  Title = "Willkommen in meiner Küche!"
+  Content = "Hier findest du eine Sammlung einfacher und leckerer Rezepte aus aller Welt. Viel Spaß beim Nachkochen!"
+
+[menu]
+  [[menu.main]]
+    identifier = "recipes"
+    name = "Rezepte"
+    url = "/recipes/"
+    weight = 10
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 20

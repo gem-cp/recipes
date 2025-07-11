@@ -1,3 +1,27 @@
+---
+title: "Vegetarisches Thai-Curry"
+date: 2025-07-11
+# Spezifische Felder für das Cookbook-Theme
+prepTime: "15 Min"
+cookTime: "20-30 Min"
+servings: "4"
+tags: ["Asiatisch", "Curry", "Vegetarisch"]
+ingredients:
+- 1 EL Kokosöl oder Pflanzenöl
+- 1 Zwiebel, gehackt
+- 2 Knoblauchzehen, fein gehackt
+- 1 Stück Ingwer (ca. 2 cm), gerieben
+- 2-3 EL rote Thai-Currypaste (je nach gewünschter Schärfe)
+- 400 ml Kokosmilch
+- 250 ml Gemüsebrühe oder Wasser
+- 500-600 g gemischtes Gemüse nach Wahl (z.B. Paprika, Zucchini, Thai-Auberginen (Eggplant), Karotten, Brokkoli, Zuckerschoten, Süßkartoffeln)
+- 200 g fester Tofu, gewürfelt (optional)
+- 1 Limette, Saft davon
+- 1 EL Sojasauce
+- Optional 1 TL brauner Zucker
+- Zum Servieren frischer Koriander oder Thai-Basilikum, gehackte Erdnüsse, gekochter Jasmin- oder Basmatireis
+---
+
 # Vegetarisches Thai-Curry
 
 Dieses vegetarische Thai-Curry ist ein aromatisches und sättigendes Gericht, das in weniger als 45 Minuten zubereitet ist. Es kombiniert die cremige Süße der Kokosmilch mit der würzigen Schärfe von roter Currypaste und einer Fülle an frischem Gemüse. Perfekt für ein schnelles Abendessen unter der Woche oder ein gemütliches Essen am Wochenende.
@@ -8,19 +32,19 @@ Dieses vegetarische Thai-Curry ist ein aromatisches und sättigendes Gericht, da
 
 ## Zutaten
 
-* 1 EL Kokosöl oder Pflanzenöl
-* 1 Zwiebel, gehackt
-* 2 Knoblauchzehen, fein gehackt
-* 1 Stück Ingwer (ca. 2 cm), gerieben
-* 2-3 EL rote Thai-Currypaste (je nach gewünschter Schärfe)
-* 400 ml Kokosmilch
-* 250 ml Gemüsebrühe oder Wasser
-* 500-600 g gemischtes Gemüse nach Wahl (z.B. Paprika, Zucchini, Thai-Auberginen (Eggplant), Karotten, Brokkoli, Zuckerschoten, Süßkartoffeln)
-* 200 g fester Tofu, gewürfelt (optional)
-* 1 Limette, Saft davon
-* 1 EL Sojasauce
-* Optional: 1 TL brauner Zucker
-* Zum Servieren: frischer Koriander oder Thai-Basilikum, gehackte Erdnüsse, gekochter Jasmin- oder Basmatireis
+- 1 EL Kokosöl oder Pflanzenöl
+- 1 Zwiebel, gehackt
+- 2 Knoblauchzehen, fein gehackt
+- 1 Stück Ingwer (ca. 2 cm), gerieben
+- 2-3 EL rote Thai-Currypaste (je nach gewünschter Schärfe)
+- 400 ml Kokosmilch
+- 250 ml Gemüsebrühe oder Wasser
+- 500-600 g gemischtes Gemüse nach Wahl (z.B. Paprika, Zucchini, Thai-Auberginen (Eggplant), Karotten, Brokkoli, Zuckerschoten, Süßkartoffeln)
+- 200 g fester Tofu, gewürfelt (optional)
+- 1 Limette, Saft davon
+- 1 EL Sojasauce
+- Optional: 1 TL brauner Zucker
+- Zum Servieren: frischer Koriander oder Thai-Basilikum, gehackte Erdnüsse, gekochter Jasmin- oder Basmatireis
 
 ## Anleitung
 

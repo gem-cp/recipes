@@ -1,3 +1,15 @@
+---
+title: "Brokkoli-Kartoffelauflauf"
+date: 2024-05-23
+description: "Ein cremiger und köstlicher vegetarischer Brokkoli-Kartoffelauflauf. Das perfekte Wohlfühlgericht für die ganze Familie, einfach zuzubereiten."
+tags: ["Deutsch", "Auflauf", "Vegetarisch", "Kartoffeln", "Brokkoli", "Hauptgericht", "Familienrezept"]
+categories: ["Deutsch"]
+# image: "/images/brokkoli-kartoffel-auflauf.png" # Add image if available
+draft: false
+prepTime: "ca. 25 Minuten"
+cookTime: "ca. 30 Minuten" # Or use 'backzeit' if preferred for naming
+servings: "4 Personen"
+---
 # Brokkoli-Kartoffelauflauf
 
 Ein cremiger und köstlicher Brokkoli-Kartoffelauflauf ist das perfekte Wohlfühlgericht für die ganze Familie. Dieses vegetarische Rezept ist einfach zuzubereiten und die meiste Arbeit übernimmt der Backofen.

@@ -1,11 +1,14 @@
 ---
-title: "Vegetarisches Thai-Curry"
-date: 2025-07-11
-# Spezifische Felder für das Cookbook-Theme
+title: "Vegetarisches Thai Curry"
+date: 2024-05-23
+description: "Ein aromatisches und sättigendes vegetarisches Thai-Curry mit Kokosmilch, roter Currypaste und viel frischem Gemüse."
+tags: ["Thai", "Curry", "Vegetarisch", "Hauptgericht", "Schnell", "Einfach", "Kokosmilch"]
+categories: ["Asiatisch"]
+# image: "/images/thai-curry-vegetarisch.png" # Add image if available
+draft: false
 prepTime: "15 Min"
 cookTime: "20-30 Min"
 servings: "4"
-tags: ["Asiatisch", "Curry", "Vegetarisch"]
 ingredients:
 - 1 EL Kokosöl oder Pflanzenöl
 - 1 Zwiebel, gehackt
@@ -18,8 +21,8 @@ ingredients:
 - 200 g fester Tofu, gewürfelt (optional)
 - 1 Limette, Saft davon
 - 1 EL Sojasauce
-- Optional 1 TL brauner Zucker
-- Zum Servieren frischer Koriander oder Thai-Basilikum, gehackte Erdnüsse, gekochter Jasmin- oder Basmatireis
+- Optional: 1 TL brauner Zucker
+- Zum Servieren: frischer Koriander oder Thai-Basilikum, gehackte Erdnüsse, gekochter Jasmin- oder Basmatireis
 ---
 
 # Vegetarisches Thai-Curry

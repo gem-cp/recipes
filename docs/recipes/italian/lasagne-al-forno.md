@@ -1,16 +1,14 @@
 ---
 title: "Klassische Lasagne al Forno"
-date: 2024-05-10
-# Du kannst hier einfache Metadaten hinzufügen, die PaperMod anzeigt
-author: "Dein Name"
-tags: ["Italienisch", "Pasta", "Hauptgericht"]
-summary: "Ein traditionelles Rezept für eine herzhafte Lasagne, wie bei der Nonna."
-# Das Bild für die Vorschau (muss im selben Ordner oder Unterordner liegen)
-# Oder du gibst einen Pfad aus /static an, z.B. /images/lasagne.jpg
-cover:
-  image: "lasagne.jpg" 
-  alt: "Eine leckere Lasagne in einer Auflaufform"
-  caption: "Frisch aus dem Ofen"
+date: 2024-05-23
+description: "Ein traditionelles Rezept für eine herzhafte Lasagne, wie bei der Nonna. Mit Ragù alla Bolognese und Béchamelsauce."
+tags: ["Italienisch", "Pasta", "Hauptgericht", "Klassiker", "Hackfleisch", "Auflauf"]
+categories: ["Italienisch"]
+image: "/images/lasagne.jpg" # Assuming lasagne.jpg is in docs/images/
+image_alt: "Eine leckere Lasagne in einer Auflaufform" # Preserving alt text
+draft: false
+# summary: "Ein traditionelles Rezept für eine herzhafte Lasagne, wie bei der Nonna." # Merged into description
+# cover.caption: "Frisch aus dem Ofen" # This can be added to the markdown body if needed
 ---
 
 Lasagne ist ein Klassiker der italienischen Küche, der bei Groß und Klein beliebt ist. Mit diesem Rezept gelingt sie garantiert!

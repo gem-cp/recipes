@@ -2,7 +2,7 @@
 title: "Vegetarisches Thai Curry"
 date: 2024-05-23
 description: "Ein aromatisches und sättigendes vegetarisches Thai-Curry mit Kokosmilch, roter Currypaste und viel frischem Gemüse."
-tags: ["Thai", "Curry", "Vegetarisch", "Hauptgericht", "Schnell", "Einfach", "Kokosmilch"]
+tags: ["Thai", "Curry", "Vegetarisch", "Hauptgericht", "Schnell", "Einfach", "Kokosmilch", "Reis"]
 categories: ["Asiatisch"]
 # image: "/images/thai-curry-vegetarisch.png" # Add image if available
 draft: false

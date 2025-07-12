@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Categories on Meine Rezeptsammlung</title>
-    <link>https://gem-cp.github.io/recipes/categories/</link>
+    <link>http://localhost:1313/recipes/categories/</link>
     <description>Recent content in Categories on Meine Rezeptsammlung</description>
-    <generator>Hugo -- 0.148.1</generator>
+    <generator>Hugo -- 0.148.0</generator>
     <language>de-de</language>
     <lastBuildDate>Thu, 23 May 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://gem-cp.github.io/recipes/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/recipes/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Asiatisch</title>
-      <link>https://gem-cp.github.io/recipes/categories/asiatisch/</link>
+      <link>http://localhost:1313/recipes/categories/asiatisch/</link>
       <pubDate>Thu, 23 May 2024 00:00:00 +0000</pubDate>
-      <guid>https://gem-cp.github.io/recipes/categories/asiatisch/</guid>
+      <guid>http://localhost:1313/recipes/categories/asiatisch/</guid>
       <description></description>
     </item>
     <item>
       <title>Deutsch</title>
-      <link>https://gem-cp.github.io/recipes/categories/deutsch/</link>
+      <link>http://localhost:1313/recipes/categories/deutsch/</link>
       <pubDate>Thu, 23 May 2024 00:00:00 +0000</pubDate>
-      <guid>https://gem-cp.github.io/recipes/categories/deutsch/</guid>
+      <guid>http://localhost:1313/recipes/categories/deutsch/</guid>
       <description></description>
     </item>
     <item>
       <title>Italienisch</title>
-      <link>https://gem-cp.github.io/recipes/categories/italienisch/</link>
+      <link>http://localhost:1313/recipes/categories/italienisch/</link>
       <pubDate>Thu, 23 May 2024 00:00:00 +0000</pubDate>
-      <guid>https://gem-cp.github.io/recipes/categories/italienisch/</guid>
+      <guid>http://localhost:1313/recipes/categories/italienisch/</guid>
       <description></description>
     </item>
   </channel>

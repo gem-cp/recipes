@@ -2,59 +2,59 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Alle Rezepte on Meine Rezeptsammlung</title>
-    <link>https://gem-cp.github.io/recipes/</link>
+    <link>http://localhost:1313/recipes/</link>
     <description>Recent content in Alle Rezepte on Meine Rezeptsammlung</description>
-    <generator>Hugo -- 0.148.1</generator>
+    <generator>Hugo -- 0.148.0</generator>
     <language>de-de</language>
     <lastBuildDate>Thu, 23 May 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://gem-cp.github.io/recipes/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/recipes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Brokkoli-Kartoffelauflauf</title>
-      <link>https://gem-cp.github.io/recipes/german/brokkoli-kartoffel-auflauf/</link>
+      <link>http://localhost:1313/recipes/german/brokkoli-kartoffel-auflauf/</link>
       <pubDate>Thu, 23 May 2024 00:00:00 +0000</pubDate>
-      <guid>https://gem-cp.github.io/recipes/german/brokkoli-kartoffel-auflauf/</guid>
+      <guid>http://localhost:1313/recipes/german/brokkoli-kartoffel-auflauf/</guid>
       <description>Ein cremiger und köstlicher vegetarischer Brokkoli-Kartoffelauflauf. Das perfekte Wohlfühlgericht für die ganze Familie, einfach zuzubereiten.</description>
     </item>
     <item>
       <title>Gebratener Eierreis wie im Asia-Restaurant</title>
-      <link>https://gem-cp.github.io/recipes/asian/gebratener-eierreis/</link>
+      <link>http://localhost:1313/recipes/asian/gebratener-eierreis/</link>
       <pubDate>Thu, 23 May 2024 00:00:00 +0000</pubDate>
-      <guid>https://gem-cp.github.io/recipes/asian/gebratener-eierreis/</guid>
+      <guid>http://localhost:1313/recipes/asian/gebratener-eierreis/</guid>
       <description>Ein einfaches Rezept für gebratenen Eierreis, wie man ihn aus dem Asia-Restaurant kennt. Schnell zubereitet und sehr lecker.</description>
     </item>
     <item>
       <title>Indische Chutneys</title>
-      <link>https://gem-cp.github.io/recipes/asian/chutneys/</link>
+      <link>http://localhost:1313/recipes/asian/chutneys/</link>
       <pubDate>Thu, 23 May 2024 00:00:00 +0000</pubDate>
-      <guid>https://gem-cp.github.io/recipes/asian/chutneys/</guid>
+      <guid>http://localhost:1313/recipes/asian/chutneys/</guid>
       <description>Eine Übersicht über typische indische Chutneys, die oft in Restaurants serviert werden, inklusive Minze-Koriander und Tamarinden Chutney.</description>
     </item>
     <item>
       <title>Klassische Lasagne al Forno</title>
-      <link>https://gem-cp.github.io/recipes/italian/lasagne-al-forno/</link>
+      <link>http://localhost:1313/recipes/italian/lasagne-al-forno/</link>
       <pubDate>Thu, 23 May 2024 00:00:00 +0000</pubDate>
-      <guid>https://gem-cp.github.io/recipes/italian/lasagne-al-forno/</guid>
+      <guid>http://localhost:1313/recipes/italian/lasagne-al-forno/</guid>
       <description>Ein traditionelles Rezept für eine herzhafte Lasagne, wie bei der Nonna. Mit Ragù alla Bolognese und Béchamelsauce.</description>
     </item>
     <item>
       <title>Palak Paneer</title>
-      <link>https://gem-cp.github.io/recipes/asian/palak-paneer/</link>
+      <link>http://localhost:1313/recipes/asian/palak-paneer/</link>
       <pubDate>Thu, 23 May 2024 00:00:00 +0000</pubDate>
-      <guid>https://gem-cp.github.io/recipes/asian/palak-paneer/</guid>
+      <guid>http://localhost:1313/recipes/asian/palak-paneer/</guid>
       <description>Ein klassisches nordindisches Gericht mit Paneer (indischer Frischkäse) in einer cremigen Spinatsauce. Vegetarisch und sehr beliebt.</description>
     </item>
     <item>
       <title>Vegetarisches Thai Curry</title>
-      <link>https://gem-cp.github.io/recipes/asian/thai-curry-vegetarisch/</link>
+      <link>http://localhost:1313/recipes/asian/thai-curry-vegetarisch/</link>
       <pubDate>Thu, 23 May 2024 00:00:00 +0000</pubDate>
-      <guid>https://gem-cp.github.io/recipes/asian/thai-curry-vegetarisch/</guid>
+      <guid>http://localhost:1313/recipes/asian/thai-curry-vegetarisch/</guid>
       <description>Ein aromatisches und sättigendes vegetarisches Thai-Curry mit Kokosmilch, roter Currypaste und viel frischem Gemüse.</description>
     </item>
     <item>
       <title></title>
-      <link>https://gem-cp.github.io/recipes/about/</link>
+      <link>http://localhost:1313/recipes/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://gem-cp.github.io/recipes/about/</guid>
+      <guid>http://localhost:1313/recipes/about/</guid>
       <description>&lt;h1 id=&#34;über-mich&#34;&gt;Über mich&lt;/h1&gt;
 &lt;p&gt;Ich bin ein leidenschaftlicher Koch und teile hier meine Lieblingsrezepte aus aller Welt. Viel Spaß beim Ausprobieren!&lt;/p&gt;
 &lt;h2 id=&#34;kontakt&#34;&gt;Kontakt&lt;/h2&gt;

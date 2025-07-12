@@ -2,178 +2,178 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Meine Rezeptsammlung</title>
-    <link>https://gem-cp.github.io/recipes/tags/</link>
+    <link>http://localhost:1313/recipes/tags/</link>
     <description>Recent content in Tags on Meine Rezeptsammlung</description>
-    <generator>Hugo -- 0.148.1</generator>
+    <generator>Hugo -- 0.148.0</generator>
     <language>de-de</language>
     <lastBuildDate>Thu, 23 May 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://gem-cp.github.io/recipes/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/recipes/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Asiatisch</title>
-      <link>https://gem-cp.github.io/recipes/tags/asiatisch/</link>
+      <link>http://localhost:1313/recipes/tags/asiatisch/</link>
       <pubDate>Thu, 23 May 2024 00:00:00 +0000</pubDate>
-      <guid>https://gem-cp.github.io/recipes/tags/asiatisch/</guid>
+      <guid>http://localhost:1313/recipes/tags/asiatisch/</guid>
       <description></description>
     </item>
     <item>
       <title>Auflauf</title>
-      <link>https://gem-cp.github.io/recipes/tags/auflauf/</link>
+      <link>http://localhost:1313/recipes/tags/auflauf/</link>
       <pubDate>Thu, 23 May 2024 00:00:00 +0000</pubDate>
-      <guid>https://gem-cp.github.io/recipes/tags/auflauf/</guid>
+      <guid>http://localhost:1313/recipes/tags/auflauf/</guid>
       <description></description>
     </item>
     <item>
       <title>Beilage</title>
-      <link>https://gem-cp.github.io/recipes/tags/beilage/</link>
+      <link>http://localhost:1313/recipes/tags/beilage/</link>
       <pubDate>Thu, 23 May 2024 00:00:00 +0000</pubDate>
-      <guid>https://gem-cp.github.io/recipes/tags/beilage/</guid>
+      <guid>http://localhost:1313/recipes/tags/beilage/</guid>
       <description></description>
     </item>
     <item>
       <title>Brokkoli</title>
-      <link>https://gem-cp.github.io/recipes/tags/brokkoli/</link>
+      <link>http://localhost:1313/recipes/tags/brokkoli/</link>
       <pubDate>Thu, 23 May 2024 00:00:00 +0000</pubDate>
-      <guid>https://gem-cp.github.io/recipes/tags/brokkoli/</guid>
+      <guid>http://localhost:1313/recipes/tags/brokkoli/</guid>
       <description></description>
     </item>
     <item>
       <title>Chutney</title>
-      <link>https://gem-cp.github.io/recipes/tags/chutney/</link>
+      <link>http://localhost:1313/recipes/tags/chutney/</link>
       <pubDate>Thu, 23 May 2024 00:00:00 +0000</pubDate>
-      <guid>https://gem-cp.github.io/recipes/tags/chutney/</guid>
+      <guid>http://localhost:1313/recipes/tags/chutney/</guid>
       <description></description>
     </item>
     <item>
       <title>Curry</title>
-      <link>https://gem-cp.github.io/recipes/tags/curry/</link>
+      <link>http://localhost:1313/recipes/tags/curry/</link>
       <pubDate>Thu, 23 May 2024 00:00:00 +0000</pubDate>
-      <guid>https://gem-cp.github.io/recipes/tags/curry/</guid>
+      <guid>http://localhost:1313/recipes/tags/curry/</guid>
       <description></description>
     </item>
     <item>
       <title>Deutsch</title>
-      <link>https://gem-cp.github.io/recipes/tags/deutsch/</link>
+      <link>http://localhost:1313/recipes/tags/deutsch/</link>
       <pubDate>Thu, 23 May 2024 00:00:00 +0000</pubDate>
-      <guid>https://gem-cp.github.io/recipes/tags/deutsch/</guid>
+      <guid>http://localhost:1313/recipes/tags/deutsch/</guid>
       <description></description>
     </item>
     <item>
       <title>Einfach</title>
-      <link>https://gem-cp.github.io/recipes/tags/einfach/</link>
+      <link>http://localhost:1313/recipes/tags/einfach/</link>
       <pubDate>Thu, 23 May 2024 00:00:00 +0000</pubDate>
-      <guid>https://gem-cp.github.io/recipes/tags/einfach/</guid>
+      <guid>http://localhost:1313/recipes/tags/einfach/</guid>
       <description></description>
     </item>
     <item>
       <title>Familienrezept</title>
-      <link>https://gem-cp.github.io/recipes/tags/familienrezept/</link>
+      <link>http://localhost:1313/recipes/tags/familienrezept/</link>
       <pubDate>Thu, 23 May 2024 00:00:00 +0000</pubDate>
-      <guid>https://gem-cp.github.io/recipes/tags/familienrezept/</guid>
+      <guid>http://localhost:1313/recipes/tags/familienrezept/</guid>
       <description></description>
     </item>
     <item>
       <title>Hackfleisch</title>
-      <link>https://gem-cp.github.io/recipes/tags/hackfleisch/</link>
+      <link>http://localhost:1313/recipes/tags/hackfleisch/</link>
       <pubDate>Thu, 23 May 2024 00:00:00 +0000</pubDate>
-      <guid>https://gem-cp.github.io/recipes/tags/hackfleisch/</guid>
+      <guid>http://localhost:1313/recipes/tags/hackfleisch/</guid>
       <description></description>
     </item>
     <item>
       <title>Hauptgericht</title>
-      <link>https://gem-cp.github.io/recipes/tags/hauptgericht/</link>
+      <link>http://localhost:1313/recipes/tags/hauptgericht/</link>
       <pubDate>Thu, 23 May 2024 00:00:00 +0000</pubDate>
-      <guid>https://gem-cp.github.io/recipes/tags/hauptgericht/</guid>
+      <guid>http://localhost:1313/recipes/tags/hauptgericht/</guid>
       <description></description>
     </item>
     <item>
       <title>Indisch</title>
-      <link>https://gem-cp.github.io/recipes/tags/indisch/</link>
+      <link>http://localhost:1313/recipes/tags/indisch/</link>
       <pubDate>Thu, 23 May 2024 00:00:00 +0000</pubDate>
-      <guid>https://gem-cp.github.io/recipes/tags/indisch/</guid>
+      <guid>http://localhost:1313/recipes/tags/indisch/</guid>
       <description></description>
     </item>
     <item>
       <title>Italienisch</title>
-      <link>https://gem-cp.github.io/recipes/tags/italienisch/</link>
+      <link>http://localhost:1313/recipes/tags/italienisch/</link>
       <pubDate>Thu, 23 May 2024 00:00:00 +0000</pubDate>
-      <guid>https://gem-cp.github.io/recipes/tags/italienisch/</guid>
+      <guid>http://localhost:1313/recipes/tags/italienisch/</guid>
       <description></description>
     </item>
     <item>
       <title>Kartoffeln</title>
-      <link>https://gem-cp.github.io/recipes/tags/kartoffeln/</link>
+      <link>http://localhost:1313/recipes/tags/kartoffeln/</link>
       <pubDate>Thu, 23 May 2024 00:00:00 +0000</pubDate>
-      <guid>https://gem-cp.github.io/recipes/tags/kartoffeln/</guid>
+      <guid>http://localhost:1313/recipes/tags/kartoffeln/</guid>
       <description></description>
     </item>
     <item>
       <title>Klassiker</title>
-      <link>https://gem-cp.github.io/recipes/tags/klassiker/</link>
+      <link>http://localhost:1313/recipes/tags/klassiker/</link>
       <pubDate>Thu, 23 May 2024 00:00:00 +0000</pubDate>
-      <guid>https://gem-cp.github.io/recipes/tags/klassiker/</guid>
+      <guid>http://localhost:1313/recipes/tags/klassiker/</guid>
       <description></description>
     </item>
     <item>
       <title>Kokosmilch</title>
-      <link>https://gem-cp.github.io/recipes/tags/kokosmilch/</link>
+      <link>http://localhost:1313/recipes/tags/kokosmilch/</link>
       <pubDate>Thu, 23 May 2024 00:00:00 +0000</pubDate>
-      <guid>https://gem-cp.github.io/recipes/tags/kokosmilch/</guid>
+      <guid>http://localhost:1313/recipes/tags/kokosmilch/</guid>
       <description></description>
     </item>
     <item>
       <title>Paneer</title>
-      <link>https://gem-cp.github.io/recipes/tags/paneer/</link>
+      <link>http://localhost:1313/recipes/tags/paneer/</link>
       <pubDate>Thu, 23 May 2024 00:00:00 +0000</pubDate>
-      <guid>https://gem-cp.github.io/recipes/tags/paneer/</guid>
+      <guid>http://localhost:1313/recipes/tags/paneer/</guid>
       <description></description>
     </item>
     <item>
       <title>Pasta</title>
-      <link>https://gem-cp.github.io/recipes/tags/pasta/</link>
+      <link>http://localhost:1313/recipes/tags/pasta/</link>
       <pubDate>Thu, 23 May 2024 00:00:00 +0000</pubDate>
-      <guid>https://gem-cp.github.io/recipes/tags/pasta/</guid>
+      <guid>http://localhost:1313/recipes/tags/pasta/</guid>
       <description></description>
     </item>
     <item>
       <title>Reis</title>
-      <link>https://gem-cp.github.io/recipes/tags/reis/</link>
+      <link>http://localhost:1313/recipes/tags/reis/</link>
       <pubDate>Thu, 23 May 2024 00:00:00 +0000</pubDate>
-      <guid>https://gem-cp.github.io/recipes/tags/reis/</guid>
+      <guid>http://localhost:1313/recipes/tags/reis/</guid>
       <description></description>
     </item>
     <item>
       <title>Sauce</title>
-      <link>https://gem-cp.github.io/recipes/tags/sauce/</link>
+      <link>http://localhost:1313/recipes/tags/sauce/</link>
       <pubDate>Thu, 23 May 2024 00:00:00 +0000</pubDate>
-      <guid>https://gem-cp.github.io/recipes/tags/sauce/</guid>
+      <guid>http://localhost:1313/recipes/tags/sauce/</guid>
       <description></description>
     </item>
     <item>
       <title>Schnell</title>
-      <link>https://gem-cp.github.io/recipes/tags/schnell/</link>
+      <link>http://localhost:1313/recipes/tags/schnell/</link>
       <pubDate>Thu, 23 May 2024 00:00:00 +0000</pubDate>
-      <guid>https://gem-cp.github.io/recipes/tags/schnell/</guid>
+      <guid>http://localhost:1313/recipes/tags/schnell/</guid>
       <description></description>
     </item>
     <item>
       <title>Spinat</title>
-      <link>https://gem-cp.github.io/recipes/tags/spinat/</link>
+      <link>http://localhost:1313/recipes/tags/spinat/</link>
       <pubDate>Thu, 23 May 2024 00:00:00 +0000</pubDate>
-      <guid>https://gem-cp.github.io/recipes/tags/spinat/</guid>
+      <guid>http://localhost:1313/recipes/tags/spinat/</guid>
       <description></description>
     </item>
     <item>
       <title>Thai</title>
-      <link>https://gem-cp.github.io/recipes/tags/thai/</link>
+      <link>http://localhost:1313/recipes/tags/thai/</link>
       <pubDate>Thu, 23 May 2024 00:00:00 +0000</pubDate>
-      <guid>https://gem-cp.github.io/recipes/tags/thai/</guid>
+      <guid>http://localhost:1313/recipes/tags/thai/</guid>
       <description></description>
     </item>
     <item>
       <title>Vegetarisch</title>
-      <link>https://gem-cp.github.io/recipes/tags/vegetarisch/</link>
+      <link>http://localhost:1313/recipes/tags/vegetarisch/</link>
       <pubDate>Thu, 23 May 2024 00:00:00 +0000</pubDate>
-      <guid>https://gem-cp.github.io/recipes/tags/vegetarisch/</guid>
+      <guid>http://localhost:1313/recipes/tags/vegetarisch/</guid>
       <description></description>
     </item>
   </channel>

@@ -8,5 +8,3 @@ cascade:
 ---
 
 Hier findest du eine Übersicht über alle Rezepte. Wähle eine Kategorie oder nutze die Suche, um dein Lieblingsrezept zu finden.
-
-![Banner](images/banner.png)

@@ -2,123 +2,123 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://gem-cp.github.io/recipes/</loc>
+    <loc>http://localhost:1313/recipes/</loc>
     <lastmod>2024-05-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://gem-cp.github.io/recipes/categories/asiatisch/</loc>
+    <loc>http://localhost:1313/recipes/categories/asiatisch/</loc>
     <lastmod>2024-05-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://gem-cp.github.io/recipes/tags/asiatisch/</loc>
+    <loc>http://localhost:1313/recipes/tags/asiatisch/</loc>
     <lastmod>2024-05-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://gem-cp.github.io/recipes/asian/</loc>
+    <loc>http://localhost:1313/recipes/asian/</loc>
     <lastmod>2024-05-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://gem-cp.github.io/recipes/tags/auflauf/</loc>
+    <loc>http://localhost:1313/recipes/tags/auflauf/</loc>
     <lastmod>2024-05-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://gem-cp.github.io/recipes/tags/beilage/</loc>
+    <loc>http://localhost:1313/recipes/tags/beilage/</loc>
     <lastmod>2024-05-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://gem-cp.github.io/recipes/tags/brokkoli/</loc>
+    <loc>http://localhost:1313/recipes/tags/brokkoli/</loc>
     <lastmod>2024-05-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://gem-cp.github.io/recipes/german/brokkoli-kartoffel-auflauf/</loc>
+    <loc>http://localhost:1313/recipes/german/brokkoli-kartoffel-auflauf/</loc>
     <lastmod>2024-05-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://gem-cp.github.io/recipes/categories/</loc>
+    <loc>http://localhost:1313/recipes/categories/</loc>
     <lastmod>2024-05-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://gem-cp.github.io/recipes/tags/chutney/</loc>
+    <loc>http://localhost:1313/recipes/tags/chutney/</loc>
     <lastmod>2024-05-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://gem-cp.github.io/recipes/tags/curry/</loc>
+    <loc>http://localhost:1313/recipes/tags/curry/</loc>
     <lastmod>2024-05-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://gem-cp.github.io/recipes/categories/deutsch/</loc>
+    <loc>http://localhost:1313/recipes/categories/deutsch/</loc>
     <lastmod>2024-05-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://gem-cp.github.io/recipes/tags/deutsch/</loc>
+    <loc>http://localhost:1313/recipes/tags/deutsch/</loc>
     <lastmod>2024-05-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://gem-cp.github.io/recipes/german/</loc>
+    <loc>http://localhost:1313/recipes/german/</loc>
     <lastmod>2024-05-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://gem-cp.github.io/recipes/tags/einfach/</loc>
+    <loc>http://localhost:1313/recipes/tags/einfach/</loc>
     <lastmod>2024-05-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://gem-cp.github.io/recipes/tags/familienrezept/</loc>
+    <loc>http://localhost:1313/recipes/tags/familienrezept/</loc>
     <lastmod>2024-05-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://gem-cp.github.io/recipes/asian/gebratener-eierreis/</loc>
+    <loc>http://localhost:1313/recipes/asian/gebratener-eierreis/</loc>
     <lastmod>2024-05-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://gem-cp.github.io/recipes/tags/hackfleisch/</loc>
+    <loc>http://localhost:1313/recipes/tags/hackfleisch/</loc>
     <lastmod>2024-05-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://gem-cp.github.io/recipes/tags/hauptgericht/</loc>
+    <loc>http://localhost:1313/recipes/tags/hauptgericht/</loc>
     <lastmod>2024-05-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://gem-cp.github.io/recipes/tags/indisch/</loc>
+    <loc>http://localhost:1313/recipes/tags/indisch/</loc>
     <lastmod>2024-05-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://gem-cp.github.io/recipes/asian/chutneys/</loc>
+    <loc>http://localhost:1313/recipes/asian/chutneys/</loc>
     <lastmod>2024-05-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://gem-cp.github.io/recipes/categories/italienisch/</loc>
+    <loc>http://localhost:1313/recipes/categories/italienisch/</loc>
     <lastmod>2024-05-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://gem-cp.github.io/recipes/tags/italienisch/</loc>
+    <loc>http://localhost:1313/recipes/tags/italienisch/</loc>
     <lastmod>2024-05-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://gem-cp.github.io/recipes/italian/</loc>
+    <loc>http://localhost:1313/recipes/italian/</loc>
     <lastmod>2024-05-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://gem-cp.github.io/recipes/tags/kartoffeln/</loc>
+    <loc>http://localhost:1313/recipes/tags/kartoffeln/</loc>
     <lastmod>2024-05-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://gem-cp.github.io/recipes/tags/klassiker/</loc>
+    <loc>http://localhost:1313/recipes/tags/klassiker/</loc>
     <lastmod>2024-05-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://gem-cp.github.io/recipes/italian/lasagne-al-forno/</loc>
+    <loc>http://localhost:1313/recipes/italian/lasagne-al-forno/</loc>
     <lastmod>2024-05-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://gem-cp.github.io/recipes/tags/kokosmilch/</loc>
+    <loc>http://localhost:1313/recipes/tags/kokosmilch/</loc>
     <lastmod>2024-05-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://gem-cp.github.io/recipes/asian/palak-paneer/</loc>
+    <loc>http://localhost:1313/recipes/asian/palak-paneer/</loc>
     <lastmod>2024-05-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://gem-cp.github.io/recipes/tags/paneer/</loc>
+    <loc>http://localhost:1313/recipes/tags/paneer/</loc>
     <lastmod>2024-05-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://gem-cp.github.io/recipes/tags/pasta/</loc>
+    <loc>http://localhost:1313/recipes/tags/pasta/</loc>
     <lastmod>2024-05-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://gem-cp.github.io/recipes/tags/reis/</loc>
+    <loc>http://localhost:1313/recipes/tags/reis/</loc>
     <lastmod>2024-05-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://gem-cp.github.io/recipes/tags/sauce/</loc>
+    <loc>http://localhost:1313/recipes/tags/sauce/</loc>
     <lastmod>2024-05-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://gem-cp.github.io/recipes/tags/schnell/</loc>
+    <loc>http://localhost:1313/recipes/tags/schnell/</loc>
     <lastmod>2024-05-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://gem-cp.github.io/recipes/tags/spinat/</loc>
+    <loc>http://localhost:1313/recipes/tags/spinat/</loc>
     <lastmod>2024-05-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://gem-cp.github.io/recipes/tags/</loc>
+    <loc>http://localhost:1313/recipes/tags/</loc>
     <lastmod>2024-05-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://gem-cp.github.io/recipes/tags/thai/</loc>
+    <loc>http://localhost:1313/recipes/tags/thai/</loc>
     <lastmod>2024-05-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://gem-cp.github.io/recipes/tags/vegetarisch/</loc>
+    <loc>http://localhost:1313/recipes/tags/vegetarisch/</loc>
     <lastmod>2024-05-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://gem-cp.github.io/recipes/asian/thai-curry-vegetarisch/</loc>
+    <loc>http://localhost:1313/recipes/asian/thai-curry-vegetarisch/</loc>
     <lastmod>2024-05-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://gem-cp.github.io/recipes/about/</loc>
+    <loc>http://localhost:1313/recipes/about/</loc>
   </url>
 </urlset>

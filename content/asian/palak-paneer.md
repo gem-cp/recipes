@@ -11,15 +11,6 @@ cover:
     relative: false
 draft: false
 ---
-- [Zutaten](#zutaten)
-- [Zubereitung](#zubereitung)
-  - [Schritt 1: Spinat vorbereiten (Blanchieren)](#schritt-1-spinat-vorbereiten-blanchieren)
-  - [Schritt 2: Paneer vorbereiten (optional, aber empfohlen)](#schritt-2-paneer-vorbereiten-optional-aber-empfohlen)
-  - [Schritt 3: Die Masala (Saucenbasis) zubereiten](#schritt-3-die-masala-saucenbasis-zubereiten)
-  - [Schritt 4: Alles zusammenführen](#schritt-4-alles-zusammenführen)
-  - [Schritt 5: Fertigstellen und Verfeinern](#schritt-5-fertigstellen-und-verfeinern)
-- [Tipps und Variationen](#tipps-und-variationen)
-- [Serviervorschlag](#serviervorschlag)
 
 Dieses Rezept zeigt dir, wie du ein Palak Paneer zubereitest, das so gut schmeckt wie im Restaurant – mit einer leuchtend grünen Farbe und einem tiefen, würzigen Aroma.
 
@@ -31,18 +22,18 @@ Dieses Rezept zeigt dir, wie du ein Palak Paneer zubereitest, das so gut schmeck
 
 ## Zutaten
 
-**Für den Spinat:**
+### Für den Spinat
 
 - **500 g frischer Spinat** (oder ca. 300 g gefrorener Blattspinat)
 - Wasser zum Kochen
 - Eine große Schüssel mit Eiswasser
 
-**Für das Paneer:**
+### Für das Paneer
 
 - **250 g Paneer** (indischer Frischkäse), in ca. 2 cm große Würfel geschnitten
 - **1 EL Ghee** oder Pflanzenöl zum Anbraten (optional)
 
-**Für die Masala (Saucenbasis):**
+### Für die Masala (Saucenbasis)
 
 - **2 EL Ghee** (geklärte Butter) oder Pflanzenöl
 - **1 TL Kreuzkümmelsamen** (ganz)
@@ -55,7 +46,7 @@ Dieses Rezept zeigt dir, wie du ein Palak Paneer zubereitest, das so gut schmeck
 - **1/2 TL Garam Masala**
 - **Salz** nach Geschmack
 
-**Zum Verfeinern:**
+### Zum Verfeinern
 
 - **3-4 EL Sahne** (oder Cashew-Creme für eine vegane/reichhaltigere Variante)
 - **1 TL Kasuri Methi** (getrocknete Bockshornkleeblätter), zwischen den Fingern zerrieben (optional, aber sehr empfohlen für authentischen Geschmack)

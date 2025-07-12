@@ -2,6 +2,14 @@ baseURL = "https://gem-cp.github.io/recipes/"
 languageCode = "de-de"
 title = "Meine Rezeptsammlung"
 #canonifyURLs = true
+
+enableGitInfo = true
+enableGitInfoAuthor = true
+enableGitInfoDate = true
+enableGitInfoURL = true
+fuseOpts = true
+ShowSearch = true
+
 # Theme als Modul importieren
 [module]
   [[module.imports]]
@@ -26,8 +34,6 @@ title = "Meine Rezeptsammlung"
   #ShowToc = true
   #TocOpen = false
   EnableInstantClick = true
-  fuseOpts = true
-  ShowSearch = true
 
 [params.search]
   enable = true

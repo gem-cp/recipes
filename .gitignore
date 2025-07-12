@@ -192,3 +192,67 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+# -----------------------------------------------------------------------------
+# Hugo
+# -----------------------------------------------------------------------------
+
+# Der generierte Webseiten-Ordner. Dies ist das Wichtigste, was ignoriert werden muss.
+# Er wird bei jedem 'hugo' Build neu erstellt.
+/public/
+
+# Der von Hugo generierte Cache-Ordner für verarbeitete Assets (Bilder, CSS, etc.).
+# Wird bei Bedarf automatisch neu erstellt.
+/resources/
+
+# Hugo Build Lock-Datei
+.hugo_build.lock
+
+# Hugo Log-Dateien
+hugo.log
+
+
+# -----------------------------------------------------------------------------
+# Hugo Modules
+# -----------------------------------------------------------------------------
+
+# Themes, die über Hugo Modules verwaltet werden, sollten nicht im Repo sein.
+# Das hält das Repository sauber. Wenn du ein Theme als Git Submodule
+# ODER manuell im 'themes'-Ordner hast, musst du diese Zeile entfernen!
+/themes/
+
+
+# -----------------------------------------------------------------------------
+# Betriebssystem- und Editor-spezifische Dateien
+# -----------------------------------------------------------------------------
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+
+# Editoren
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Sonstige
+*~
+*.swp
+
+
+# -----------------------------------------------------------------------------
+# Sensible Informationen (optional, aber empfohlen)
+# -----------------------------------------------------------------------------
+
+# Environment-Dateien, die oft API-Keys oder Passwörter enthalten
+.env
+.env.*
+!.env.example

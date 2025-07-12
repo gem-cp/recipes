@@ -7,8 +7,6 @@ enableGitInfo = true
 enableGitInfoAuthor = true
 enableGitInfoDate = true
 enableGitInfoURL = true
-fuseOpts = true
-ShowSearch = true
 
 # Theme als Modul importieren
 [module]

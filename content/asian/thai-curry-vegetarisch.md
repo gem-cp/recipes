@@ -5,14 +5,11 @@ description: "Ein aromatisches und sättigendes vegetarisches Thai-Curry mit Kok
 tags: ["Thai", "Curry", "Vegetarisch", "Hauptgericht", "Schnell", "Einfach", "Kokosmilch", "Reis"]
 categories: ["Asiatisch"]
 cover:
-    image: "/thai-curry-vegetarisch.png" # Der Pfad stimmt, wenn das Bild in /static/images/ liegt
+    image: "/recipes/images/thai-curry-vegetarisch.png" # Der Pfad stimmt, wenn das Bild in /static/images/ liegt
     alt: "Vegetarisches Thai Curry in einer Schale serviert"
     caption: "Aromatisch, cremig und einfach köstlich"
-    relative: false
 draft: false
 ---
-
-# Vegetarisches Thai-Curry
 
 Dieses vegetarische Thai-Curry ist ein aromatisches und sättigendes Gericht, das in weniger als 45 Minuten zubereitet ist. Es kombiniert die cremige Süße der Kokosmilch mit der würzigen Schärfe von roter Currypaste und einer Fülle an frischem Gemüse. Perfekt für ein schnelles Abendessen unter der Woche oder ein gemütliches Essen am Wochenende.
 

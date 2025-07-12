@@ -2,7 +2,7 @@
 title: "Gebratener Eierreis wie im Asia-Restaurant"
 date: 2024-05-23
 description: "Ein einfaches Rezept für gebratenen Eierreis, wie man ihn aus dem Asia-Restaurant kennt. Schnell zubereitet und sehr lecker."
-tags: ["Asiatisch", "Reis", "Hauptgericht", "Einfach", "Schnell"]
+tags: ["Asiatisch", "Reis", "Hauptgericht", "Einfach", "Schnell", "Vegetarisch"]
 categories: ["Asiatisch"]
 image: "../images/gebratener-eierreis.png"
 draft: false

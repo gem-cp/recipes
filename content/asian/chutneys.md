@@ -2,7 +2,7 @@
 title: "Indische Chutneys"
 date: 2024-05-23
 description: "Eine Übersicht über typische indische Chutneys, die oft in Restaurants serviert werden, inklusive Minze-Koriander und Tamarinden Chutney."
-tags: ["Indisch", "Beilage", "Sauce", "Chutney"]
+tags: ["Indisch", "Beilage", "Sauce", "Chutney", "Vegetarisch"]
 categories: ["Asiatisch"]
 image: "../images/chutneys.png"
 draft: false

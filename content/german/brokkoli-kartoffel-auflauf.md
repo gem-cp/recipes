@@ -9,7 +9,7 @@ prepTime: "ca. 25 Minuten"
 cookTime: "ca. 30 Minuten" # Or use 'backzeit' if preferred for naming
 servings: "4 Personen"
 cover:
-    image: "//images/brokkoli-kartoffel-auflauf.png" # Der Pfad stimmt, wenn das Bild in /static/images/ liegt
+    image: "/recipes/images/brokkoli-kartoffel-auflauf.jpg" # Der Pfad stimmt, wenn das Bild in /static/images/ liegt
     alt: "Brokkoli-Kartoffelauflauf in einer Auflaufform"
     caption: "Cremig, herzhaft und perfekt für die ganze Familie"
     relative: false

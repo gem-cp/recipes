@@ -5,7 +5,7 @@ description: "Ein einfaches Rezept für gebratenen Eierreis, wie man ihn aus dem
 tags: ["Asiatisch", "Reis", "Hauptgericht", "Einfach", "Schnell", "Vegetarisch"]
 categories: ["Asiatisch"]
 cover:
-    image: "/images/gebratener-eierreis.png" # Der Pfad stimmt, wenn das Bild in /static/images/ liegt
+    image: "/recipes/images/gebratener-eierreis.png" # Der Pfad stimmt, wenn das Bild in /static/images/ liegt
     alt: "Gebratener Eierreis in einer Schale serviert"
     caption: "Einfach und lecker, perfekt für ein schnelles Mittagessen"
     relative: false

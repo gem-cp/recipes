@@ -5,7 +5,7 @@ description: "Ein klassisches nordindisches Gericht mit Paneer (indischer Frisch
 tags: ["Indisch", "Vegetarisch", "Hauptgericht", "Paneer", "Spinat", "Reis"]
 categories: ["Asiatisch"]
 cover:
-    image: "/images/palak-paneer.png" # Der Pfad stimmt, wenn das Bild in /static/images/ liegt
+    image: "/recipes/images/palak-paneer.png" # Der Pfad stimmt, wenn das Bild in /static/images/ liegt
     alt: "Palak Paneer in einer Schale serviert"
     caption: "Cremig, würzig und einfach köstlich"
     relative: false

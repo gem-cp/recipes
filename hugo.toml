@@ -8,8 +8,11 @@ title = "Meine Rezeptsammlung"
     path = "github.com/adityatelange/hugo-PaperMod"
 
 # Sag Hugo, wo dein Inhalt und deine Bilder liegen
-contentDir = "docs"
-staticDir = ["docs"]
+contentDir = "content"
+staticDir = ["static"]
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"] # Needed for search functionality
 
 [params]
   author = "Christian Plagens"
@@ -17,10 +20,23 @@ staticDir = ["docs"]
   defaultTheme = "auto" # "light", "dark" oder "auto"
   ShowShareButtons = true
   ShowReadingTime = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowToc = true
+  TocOpen = false
+  EnableInstantClick = true
+
+  [params.search]
+    enable = true
 
   [params.homeInfoParams]
   Title = "Willkommen in meiner Küche!"
   Content = "Hier findest du eine Sammlung einfacher und leckerer Rezepte aus aller Welt. Viel Spaß beim Nachkochen!"
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
 
 [menu]
   [[menu.main]]

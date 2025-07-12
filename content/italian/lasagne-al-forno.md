@@ -4,8 +4,8 @@ date: 2024-05-23
 description: "Ein traditionelles Rezept für eine herzhafte Lasagne, wie bei der Nonna. Mit Ragù alla Bolognese und Béchamelsauce."
 tags: ["Italienisch", "Pasta", "Hauptgericht", "Klassiker", "Hackfleisch", "Auflauf"]
 categories: ["Italienisch"]
-image: "/images/lasagne.jpg" # Assuming lasagne.jpg is in docs/images/
-image_alt: "Eine leckere Lasagne in einer Auflaufform" # Preserving alt text
+#image: "../images/lasagne.jpg" # Assuming lasagne.jpg is in images/
+#image_alt: "Eine leckere Lasagne in einer Auflaufform" # Preserving alt text
 draft: false
 # summary: "Ein traditionelles Rezept für eine herzhafte Lasagne, wie bei der Nonna." # Merged into description
 # cover.caption: "Frisch aus dem Ofen" # This can be added to the markdown body if needed

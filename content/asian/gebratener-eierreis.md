@@ -4,12 +4,12 @@ date: 2024-05-23
 description: "Ein einfaches Rezept für gebratenen Eierreis, wie man ihn aus dem Asia-Restaurant kennt. Schnell zubereitet und sehr lecker."
 tags: ["Asiatisch", "Reis", "Hauptgericht", "Einfach", "Schnell"]
 categories: ["Asiatisch"]
-image: "/images/gebratener-eierreis.png"
+image: "../images/gebratener-eierreis.png"
 draft: false
 ---
 # Gebratener Eierreis
 
-![Gebratener Eierreis](/images/gebratener-eierreis.png)
+![Gebratener Eierreis](../images/gebratener-eierreis.png)
 
 **Ergibt:** ca. 2-3 Portionen
 **Vorbereitungszeit:** 15 Minuten

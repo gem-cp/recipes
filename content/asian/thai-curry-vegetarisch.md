@@ -6,23 +6,6 @@ tags: ["Thai", "Curry", "Vegetarisch", "Hauptgericht", "Schnell", "Einfach", "Ko
 categories: ["Asiatisch"]
 # image: "/images/thai-curry-vegetarisch.png" # Add image if available
 draft: false
-prepTime: "15 Min"
-cookTime: "20-30 Min"
-servings: "4"
-ingredients:
-- 1 EL Kokosöl oder Pflanzenöl
-- 1 Zwiebel, gehackt
-- 2 Knoblauchzehen, fein gehackt
-- 1 Stück Ingwer (ca. 2 cm), gerieben
-- 2-3 EL rote Thai-Currypaste (je nach gewünschter Schärfe)
-- 400 ml Kokosmilch
-- 250 ml Gemüsebrühe oder Wasser
-- 500-600 g gemischtes Gemüse nach Wahl (z.B. Paprika, Zucchini, Thai-Auberginen (Eggplant), Karotten, Brokkoli, Zuckerschoten, Süßkartoffeln)
-- 200 g fester Tofu, gewürfelt (optional)
-- 1 Limette, Saft davon
-- 1 EL Sojasauce
-- Optional: 1 TL brauner Zucker
-- Zum Servieren: frischer Koriander oder Thai-Basilikum, gehackte Erdnüsse, gekochter Jasmin- oder Basmatireis
 ---
 
 # Vegetarisches Thai-Curry

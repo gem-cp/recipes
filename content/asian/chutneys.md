@@ -4,12 +4,13 @@ date: 2024-05-23
 description: "Eine Übersicht über typische indische Chutneys, die oft in Restaurants serviert werden, inklusive Minze-Koriander und Tamarinden Chutney."
 tags: ["Indisch", "Beilage", "Sauce", "Chutney", "Vegetarisch"]
 categories: ["Asiatisch"]
-image: "/images/chutneys.png"
+cover:
+    image: "/images/chutneys.png" # Der Pfad stimmt, wenn das Bild in /static/images/ liegt
+    alt: "Indische Chutneys in kleinen Schälchen"
+    caption: "Eine Auswahl an würzigen und aromatischen Chutneys"
+    relative: false
 draft: false
 ---
-# Chutneys
-
-![Chutneys](../images/chutneys.png)
 
 Chutneys sind eine wichtige Komponente der indischen Küche und werden oft als Beilage zu verschiedenen Gerichten serviert. Sie können frisch, gekocht oder eingelegt sein und reichen von süß über sauer bis scharf. Hier sind typische indische Chutneys, die häufig in Restaurants serviert werden.
 

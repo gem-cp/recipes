@@ -4,15 +4,20 @@ date: 2024-05-23
 description: "Ein klassisches nordindisches Gericht mit Paneer (indischer Frischkäse) in einer cremigen Spinatsauce. Vegetarisch und sehr beliebt."
 tags: ["Indisch", "Vegetarisch", "Hauptgericht", "Paneer", "Spinat", "Reis"]
 categories: ["Asiatisch"]
-image: "/images/palak-paneer.png"
+cover:
+    image: "/images/palak-paneer.png" # Der Pfad stimmt, wenn das Bild in /static/images/ liegt
+    alt: "Palak Paneer in einer Schale serviert"
+    caption: "Cremig, würzig und einfach köstlich"
+    relative: false
 draft: false
 ---
-# Palak Paneer
-
-![Palak Paneer](../images/palak-paneer.png)
-
 - [Zutaten](#zutaten)
 - [Zubereitung](#zubereitung)
+  - [Schritt 1: Spinat vorbereiten (Blanchieren)](#schritt-1-spinat-vorbereiten-blanchieren)
+  - [Schritt 2: Paneer vorbereiten (optional, aber empfohlen)](#schritt-2-paneer-vorbereiten-optional-aber-empfohlen)
+  - [Schritt 3: Die Masala (Saucenbasis) zubereiten](#schritt-3-die-masala-saucenbasis-zubereiten)
+  - [Schritt 4: Alles zusammenführen](#schritt-4-alles-zusammenführen)
+  - [Schritt 5: Fertigstellen und Verfeinern](#schritt-5-fertigstellen-und-verfeinern)
 - [Tipps und Variationen](#tipps-und-variationen)
 - [Serviervorschlag](#serviervorschlag)
 

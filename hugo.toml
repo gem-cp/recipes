@@ -1,15 +1,15 @@
 baseURL = "https://gem-cp.github.io/recipes/"
 languageCode = "de-de"
 title = "Meine Rezeptsammlung"
-
+canonifyURLs = true
 # Theme als Modul importieren
 [module]
   [[module.imports]]
     path = "github.com/adityatelange/hugo-PaperMod"
 
 # Sag Hugo, wo dein Inhalt und deine Bilder liegen
-#contentDir = "content"
-#staticDir = ["static"]
+contentDir = "content"
+staticDir = ["static"]
 
 [outputs]
   home = ["HTML", "RSS", "JSON"] # Needed for search functionality

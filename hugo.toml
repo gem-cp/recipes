@@ -1,15 +1,15 @@
 baseURL = "https://gem-cp.github.io/recipes/"
 languageCode = "de-de"
 title = "Meine Rezeptsammlung"
-canonifyURLs = true
+#canonifyURLs = true
 # Theme als Modul importieren
 [module]
   [[module.imports]]
     path = "github.com/adityatelange/hugo-PaperMod"
 
 # Sag Hugo, wo dein Inhalt und deine Bilder liegen
-contentDir = "content"
-staticDir = ["static"]
+#contentDir = "content"
+#staticDir = ["static"]
 
 [outputs]
   home = ["HTML", "RSS", "JSON"] # Needed for search functionality
@@ -23,26 +23,28 @@ staticDir = ["static"]
   ShowPostNavLinks = true
   ShowBreadCrumbs = true
   ShowCodeCopyButtons = true
-  ShowToc = true
-  TocOpen = false
+  #ShowToc = true
+  #TocOpen = false
   EnableInstantClick = true
+  fuseOpts = true
+  ShowSearch = true
 
-  [params.search]
-    enable = true
+[params.search]
+  enable = true
 
   #[params.homeInfoParams]
-  [params.profile]
-    enable = true
-    imageUrl = "/images/mein-profilbild.jpg" # Optional: Lade ein Bild nach /static/images/
-    title = "Meine Rezeptsammlung"
-    subtitle = "Herzlich willkommen! Hier findest du einfache und leckere Rezepte aus aller Welt. Viel Spaß beim Stöbern und Nachkochen."
+[params.profile]
+  enable = true
+  imageUrl = "/images/mein-profilbild.jpg" # Optional: Lade ein Bild nach /static/images/
+  title = "Meine Rezeptsammlung"
+  subtitle = "Herzlich willkommen! Hier findest du einfache und leckere Rezepte aus aller Welt. Viel Spaß beim Stöbern und Nachkochen."
   
-    [[params.profile.buttons]]
-      name = "Alle Rezepte"
-      url = "/archives" # PaperMod hat eine eingebaute Archiv-Seite
-    [[params.profile.buttons]]
-      name = "Über mich"
-      url = "/about" # Verlinkt zu deiner "about.md"
+[[params.profile.buttons]]
+  name = "Alle Rezepte"
+  url = "/archives" # PaperMod hat eine eingebaute Archiv-Seite
+[[params.profile.buttons]]
+  name = "Über mich"
+  url = "/about" # Verlinkt zu deiner "about.md"
 
 [taxonomies]
   tag = "tags"
@@ -65,7 +67,11 @@ staticDir = ["static"]
     url = "/italian/"
     weight = 30
   [[menu.main]]
+    name = "Suche"
+    url = "search/"
+    weight = 110
+  [[menu.main]]
     identifier = "tags"
     name = "Tags"
     url = "/tags/"
-    weight = 100
+    weight = 120

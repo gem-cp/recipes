@@ -4,7 +4,7 @@ date: 2024-05-23
 description: "Ein klassisches nordindisches Gericht mit Paneer (indischer Frischkäse) in einer cremigen Spinatsauce. Vegetarisch und sehr beliebt."
 tags: ["Indisch", "Vegetarisch", "Hauptgericht", "Paneer", "Spinat", "Reis"]
 categories: ["Asiatisch"]
-image: "../images/palak-paneer.png"
+image: "/images/palak-paneer.png"
 draft: false
 ---
 # Palak Paneer

@@ -30,9 +30,19 @@ title = "Meine Rezeptsammlung"
   [params.search]
     enable = true
 
-  [params.homeInfoParams]
-  Title = "Willkommen in meiner Küche!"
-  Content = "Hier findest du eine Sammlung einfacher und leckerer Rezepte aus aller Welt. Viel Spaß beim Nachkochen!"
+  #[params.homeInfoParams]
+  [params.profile]
+    enable = true
+    imageUrl = "/images/mein-profilbild.jpg" # Optional: Lade ein Bild nach /static/images/
+    title = "Meine Rezeptsammlung"
+    subtitle = "Herzlich willkommen! Hier findest du einfache und leckere Rezepte aus aller Welt. Viel Spaß beim Stöbern und Nachkochen."
+  
+    [[params.profile.buttons]]
+      name = "Alle Rezepte"
+      url = "/archives" # PaperMod hat eine eingebaute Archiv-Seite
+    [[params.profile.buttons]]
+      name = "Über mich"
+      url = "/about" # Verlinkt zu deiner "about.md"
 
 [taxonomies]
   tag = "tags"

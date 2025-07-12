@@ -40,12 +40,22 @@ title = "Meine Rezeptsammlung"
 
 [menu]
   [[menu.main]]
-    identifier = "recipes"
-    name = "Rezepte"
-    url = "/recipes/"
+    identifier = "Asiatisch"
+    name = "Asiatische Rezepte"
+    url = "/asian/"
     weight = 10
+  [[menu.main]]
+    identifier = "Deutsch"
+    name = " Deutsche Rezepte"
+    url = "//"
+    weight = 20
+  [[menu.main]]
+    identifier = "Italienisch"
+    name = " Italienische Rezepte"
+    url = "//"
+    weight = 30
   [[menu.main]]
     identifier = "tags"
     name = "Tags"
     url = "/tags/"
-    weight = 20
+    weight = 100

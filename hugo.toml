@@ -54,6 +54,20 @@ enableGitInfoURL = true
   tag = "tags"
   category = "categories"
 
+[languages]
+  [languages.de]
+    contentDir = 'content/german'
+    languageName = 'Deutsch'
+    weight = 10
+  [languages.en]
+    contentDir = 'content/english'
+    languageName = 'English'
+    weight = 20
+  [languages.it]
+    contentDir = 'content/italian'
+    languageName = 'Italiano'
+    weight = 30
+
 [menu]
   [[menu.main]]
     identifier = "asian-menu"

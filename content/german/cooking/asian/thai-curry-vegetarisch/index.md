@@ -5,7 +5,7 @@ description: "Ein aromatisches und sättigendes vegetarisches Thai-Curry mit Kok
 tags: ["Thai", "Curry", "Vegetarisch", "Hauptgericht", "Schnell", "Einfach", "Kokosmilch", "Reis"]
 categories: ["Asiatisch"]
 cover:
-    image: "/recipes/images/thai-curry-vegetarisch.jpg" # Der Pfad stimmt, wenn das Bild in /static/images/ liegt
+    image: "thai-curry-vegetarisch.jpg" # Der Pfad stimmt, wenn das Bild in /static/images/ liegt
     alt: "Vegetarisches Thai Curry in einer Schale serviert"
     caption: "Aromatisch, cremig und einfach köstlich"
 draft: false

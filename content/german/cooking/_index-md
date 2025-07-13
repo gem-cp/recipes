@@ -1,5 +1,5 @@
 ---
-title: "Deutsch"
+title: "Kochen"
 description: "Eine Sammlung köstlicher Rezepte aus verschiedenen Ländern."
 cascade:
   showDate: false
@@ -7,4 +7,4 @@ cascade:
   showWordCount: false
 ---
 
-Entdecke die Vielfalt des Kochens, Backens und der Desserts.
+Entdecke die Vielfalt des Kochens.

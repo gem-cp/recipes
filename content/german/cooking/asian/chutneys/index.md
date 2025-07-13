@@ -5,7 +5,7 @@ description: "Eine Übersicht über typische indische Chutneys, die oft in Resta
 tags: ["Indisch", "Beilage", "Sauce", "Chutney", "Vegetarisch"]
 categories: ["Asiatisch"]
 cover:
-    image: "/recipes/images/chutneys.png" # Der Pfad stimmt, wenn das Bild in /static/images/ liegt
+    image: "chutneys.png" # Der Pfad stimmt, wenn das Bild in /static/images/ liegt
     alt: "Indische Chutneys in kleinen Schälchen"
     caption: "Eine Auswahl an würzigen und aromatischen Chutneys"
     relative: false

@@ -1,0 +1,440 @@
+.
+├── archetypes
+│   └── default.md
+├── assets
+│   └── css
+│       └── extended
+│           └── custom.css
+├── content
+│   ├── _index.md
+│   ├── about.md
+│   ├── de
+│   │   ├── _index.md
+│   │   ├── baking
+│   │   │   └── _index.md
+│   │   ├── cooking
+│   │   │   ├── _index-md
+│   │   │   ├── asian
+│   │   │   │   ├── _index.md
+│   │   │   │   ├── chutneys
+│   │   │   │   │   ├── chutneys.png
+│   │   │   │   │   └── index.md
+│   │   │   │   ├── gebratener-eierreis
+│   │   │   │   │   ├── gebratener-eierreis.png
+│   │   │   │   │   └── index.md
+│   │   │   │   ├── palak-paneer
+│   │   │   │   │   ├── index.md
+│   │   │   │   │   └── palak-paneer.png
+│   │   │   │   └── thai-curry-vegetarisch
+│   │   │   │       ├── index.md
+│   │   │   │       └── thai-curry-vegetarisch.jpg
+│   │   │   ├── german
+│   │   │   │   ├── _index.md
+│   │   │   │   └── brokkoli-kartoffel-auflauf
+│   │   │   │       ├── brokkoli-kartoffel-auflauf.jpg
+│   │   │   │       └── index.md
+│   │   │   └── italian
+│   │   │       ├── _index.md
+│   │   │       └── lasagne-al-forno
+│   │   │           └── index.md
+│   │   ├── dessert
+│   │   │   └── _index.md
+│   │   └── search.md
+│   ├── en
+│   │   ├── _index.md
+│   │   └── search.md
+│   └── it
+│       ├── _index.md
+│       └── search.md
+├── data
+├── go.mod
+├── go.sum
+├── hugo.toml
+├── i18n
+├── layouts
+│   ├── _defaults
+│   │   └── single.html
+│   └── partials
+├── LICENSE
+├── public
+│   ├── 404.html
+│   ├── assets
+│   │   ├── css
+│   │   │   ├── stylesheet.00dee9fccf89e1ff0f4fe6b88d9088976942b55bc2ad9c312b67b924f77ec16d.css
+│   │   │   ├── stylesheet.06d6ce268fa955ea8d1247c639ac45ac1e685c7589bc35136674b72c4e6fe986.css
+│   │   │   ├── stylesheet.16cff10c4d289397c403146d12d902125e42c56163dd1dc2bf3646b3d1f8bc71.css
+│   │   │   ├── stylesheet.22731d549dcc5c569e42f7df4049fef3a422ec980b25576900b6896c59ac3471.css
+│   │   │   ├── stylesheet.28769a50dcd3dd76f3802e89ac2b08a61bab5b907f2f31a28ca0934d0fdd0a69.css
+│   │   │   ├── stylesheet.29bc13495af0acb5a6f40df0d17d653b50bd57ed444e0784e680c3cc55be98dc.css
+│   │   │   ├── stylesheet.324302c7c17c30ad281bd9986667757176f2fe1ad26a3812b81d408f84b6e716.css
+│   │   │   ├── stylesheet.4685d5fb553ffd31eab9393b63e5438bb34bbea3ee02b2a9e062d19068fc2a64.css
+│   │   │   ├── stylesheet.497f5549bb9fa79a4a2d711d94a112e1fedce1316b4432ac939d2844ce9c7471.css
+│   │   │   ├── stylesheet.4f442ea11e7e29458acb19a28a783196fab6305b3c0953be7d85757c3efee301.css
+│   │   │   ├── stylesheet.57ea71039637f04a7a0086575e2d88516e2237be13c1b0a513424374bc7fecd5.css
+│   │   │   ├── stylesheet.68f696b554d89f0f38823ae37a9d907bda8c822dd0d36947fcf2a4c0f33e4aef.css
+│   │   │   ├── stylesheet.6f50d71c4ba2af1c4168774bcfd4c1b3a435b96daba2067058025cc1aaf1bc85.css
+│   │   │   ├── stylesheet.6fc2dd2fda938c95a790d2e58bf1557933c2c83bfc7d7e7f63194641c4443ce9.css
+│   │   │   ├── stylesheet.703b40d892ed6c45c532aa78d0c58a88ac04fb28b30ef64121db7da961d50a3a.css
+│   │   │   ├── stylesheet.7741522abb0844c1e1205f96730c04f118272d2df7eba10113e3c5302794737e.css
+│   │   │   ├── stylesheet.7ecb0ec7009a9cd992dab0a9c380e149f5b7a482d62e92a48926cc158bebeb91.css
+│   │   │   ├── stylesheet.863d52d5fe0f76b87d3757b3a5631afa47010f9bd682afe88730533662856842.css
+│   │   │   ├── stylesheet.89a0282291ee57b4f525d56deb091db60347544d885ea597b6b58965bf52be1e.css
+│   │   │   ├── stylesheet.8cd1cdbf9f531432f8c8560e64b5de71ed03dbed5a5665596c9261e20161dec0.css
+│   │   │   ├── stylesheet.8fe10233a706bc87f2e08b3cf97b8bd4c0a80f10675a143675d59212121037c0.css
+│   │   │   ├── stylesheet.9206cd35da15c9bfaf3d72ef58016dfa3a490731ae5827dbe7a190958d76f421.css
+│   │   │   ├── stylesheet.976271cb8a3ba04f3cadfb8773cc838a5d295918edcc629942ff1ee99c932a4e.css
+│   │   │   ├── stylesheet.99a4c49eea6820acf5af34fad0a0eb6f4512fd825d0324633f9c2ca050186923.css
+│   │   │   ├── stylesheet.9c03de031495d268a8696abb46c5b53f59546a27d8fb727196eaa8804538b803.css
+│   │   │   ├── stylesheet.a46479ff404c84a5b3e9cbd42fccf7539d763f94c7f1a5e5738ed46a504f930b.css
+│   │   │   ├── stylesheet.a56a688d415bcf3ec54e96fad08e837a90e250cb8888cc4fef2f410d333b4d79.css
+│   │   │   ├── stylesheet.a6df4f8f3c05cb7e1517e450e494718fb8d5409a6989774cb9d870ac9bb04758.css
+│   │   │   ├── stylesheet.a7ad2fc1f2ccdc7643f24737ee0cd15dd615cc2d8d2ed0b0ab247633c1974de7.css
+│   │   │   ├── stylesheet.b431032223ec6a0fa2c50ed6bb479690ab84f2175eee52ac59129ebadad2714e.css
+│   │   │   ├── stylesheet.b65594661680ddcee2de10352f3097f7e7dc0415607384da08f3064ccc4bb1a2.css
+│   │   │   ├── stylesheet.b8cafb0825b0eb9aebfb2b829c77ab5a637f524d5c029a41e1bacb5a7adcc50c.css
+│   │   │   ├── stylesheet.ba22cfdda3a026a1c9fe8b2d4ad35430cf5e65acf1ad6b9da1f846db52c3cf69.css
+│   │   │   ├── stylesheet.bdc17bdb4b3931fdf5708b9ba6cc0cd5ceb59bfa0a09b9cd23bbe4cbe0a4f7a7.css
+│   │   │   ├── stylesheet.bf271aa2a88ae1bbb21cf84ea584deffd5366f3eedad25eba3f26a2bc84d6fc1.css
+│   │   │   ├── stylesheet.bff89d441d7caeb643602fc706663644424a6fdae87319a7030be302e997b7a5.css
+│   │   │   ├── stylesheet.c325b6154d163f0086ad2facd8399bda093e03c4ca29ccf74880391107d417f9.css
+│   │   │   ├── stylesheet.c52edabaa9733fe9d51d4bd7f07ac59a1fbe770054773a4062e172c1f0a82677.css
+│   │   │   ├── stylesheet.c58c3d00e3799014766f0e7bb7027a63d6819bdcc9acac032f118677b3eb50a3.css
+│   │   │   ├── stylesheet.d04ad7104bcb90cd818866e99767330328c482479cec9f13466bd04bdc557f1f.css
+│   │   │   ├── stylesheet.d4b468933c2cfbe317b83d44d826c2d11e8b4274a2e37a14ec0faf84c52084b2.css
+│   │   │   ├── stylesheet.e20055642c34d4403b679f8a5096433287dd1f715680ed8bafa882f56f47a895.css
+│   │   │   ├── stylesheet.e31c0a9dbe9084904eacf8e859dd96869280d060acc9d209af68014acdd64248.css
+│   │   │   ├── stylesheet.ec7bed54f9d6760efbfec3cc5c92a13aa99dcfb4f4932f0e2808ea2443cba29b.css
+│   │   │   ├── stylesheet.ed22be67af549780237c4eb39113a65d2785c1ff281056810748205d9fca13d9.css
+│   │   │   ├── stylesheet.ee5bfcc38a2ad5fc42fbe3f3cdc8d6fcb418fe5d11ee6f4b83bdc19102e7aa72.css
+│   │   │   ├── stylesheet.f111217178103971ea4c68a8ae6bd7cb5a8ae3ed2499d458a98903d89f3bd0a4.css
+│   │   │   ├── stylesheet.fd6dd0bad47c09cf83b86af4c38e2a9d5ee85fffd1fe0d54a27bec3f622ef7b4.css
+│   │   │   ├── stylesheet.ff91ea211ebbed184f22794bcdb01eae5d6faffd2e8c35198a41bad4992c24ad.css
+│   │   │   └── stylesheet.fffd29d86d6b6ce11064b4b42cbf311d54c0d5f70c36fccd2005829699d345f3.css
+│   │   └── js
+│   │       └── search.2826037ddab446009aa4dc907d6f13e5fe42eaff23f43abcba31285b991e9c6d.js
+│   ├── categories
+│   │   ├── index.html
+│   │   └── index.xml
+│   ├── de
+│   │   ├── 404.html
+│   │   ├── baking
+│   │   │   ├── index.html
+│   │   │   ├── index.xml
+│   │   │   └── page
+│   │   │       └── 1
+│   │   │           └── index.html
+│   │   ├── categories
+│   │   │   ├── asiatisch
+│   │   │   │   ├── index.html
+│   │   │   │   ├── index.xml
+│   │   │   │   └── page
+│   │   │   │       └── 1
+│   │   │   │           └── index.html
+│   │   │   ├── deutsch
+│   │   │   │   ├── index.html
+│   │   │   │   ├── index.xml
+│   │   │   │   └── page
+│   │   │   │       └── 1
+│   │   │   │           └── index.html
+│   │   │   ├── index.html
+│   │   │   ├── index.xml
+│   │   │   └── italienisch
+│   │   │       ├── index.html
+│   │   │       ├── index.xml
+│   │   │       └── page
+│   │   │           └── 1
+│   │   │               └── index.html
+│   │   ├── cooking
+│   │   │   ├── _index-md
+│   │   │   ├── asian
+│   │   │   │   ├── chutneys
+│   │   │   │   │   ├── chutneys_hu_46c30818dc75f3b7.png
+│   │   │   │   │   ├── chutneys_hu_48fcf7add1a37413.png
+│   │   │   │   │   ├── chutneys_hu_8a1e5ad9b99f9fff.png
+│   │   │   │   │   ├── chutneys.png
+│   │   │   │   │   └── index.html
+│   │   │   │   ├── gebratener-eierreis
+│   │   │   │   │   ├── gebratener-eierreis_hu_a0320b0807f7156a.png
+│   │   │   │   │   ├── gebratener-eierreis_hu_a148a03acea7e0a5.png
+│   │   │   │   │   ├── gebratener-eierreis_hu_ead02aa1ead8afae.png
+│   │   │   │   │   ├── gebratener-eierreis.png
+│   │   │   │   │   └── index.html
+│   │   │   │   ├── index.html
+│   │   │   │   ├── index.xml
+│   │   │   │   ├── page
+│   │   │   │   │   └── 1
+│   │   │   │   │       └── index.html
+│   │   │   │   ├── palak-paneer
+│   │   │   │   │   ├── index.html
+│   │   │   │   │   ├── palak-paneer_hu_53aed921317eb5e1.png
+│   │   │   │   │   ├── palak-paneer_hu_8edfa947c1e9ced.png
+│   │   │   │   │   ├── palak-paneer_hu_bde2f82efcbe7654.png
+│   │   │   │   │   └── palak-paneer.png
+│   │   │   │   └── thai-curry-vegetarisch
+│   │   │   │       ├── index.html
+│   │   │   │       ├── thai-curry-vegetarisch_hu_51bedb200fc172c0.jpg
+│   │   │   │       ├── thai-curry-vegetarisch_hu_71a36b2f3f35fc10.jpg
+│   │   │   │       ├── thai-curry-vegetarisch_hu_738bd84a6beb286f.jpg
+│   │   │   │       ├── thai-curry-vegetarisch_hu_c8fd76183bf08fd5.jpg
+│   │   │   │       ├── thai-curry-vegetarisch_hu_e2f39f95b18ca865.jpg
+│   │   │   │       └── thai-curry-vegetarisch.jpg
+│   │   │   ├── german
+│   │   │   │   ├── brokkoli-kartoffel-auflauf
+│   │   │   │   │   ├── brokkoli-kartoffel-auflauf_hu_164539c72ca214a7.jpg
+│   │   │   │   │   ├── brokkoli-kartoffel-auflauf_hu_5e23304d609e91d1.jpg
+│   │   │   │   │   ├── brokkoli-kartoffel-auflauf_hu_905e36eec0ec509.jpg
+│   │   │   │   │   ├── brokkoli-kartoffel-auflauf_hu_bb30d4eae42a8ad.jpg
+│   │   │   │   │   ├── brokkoli-kartoffel-auflauf_hu_fb26db478c162c4d.jpg
+│   │   │   │   │   ├── brokkoli-kartoffel-auflauf.jpg
+│   │   │   │   │   └── index.html
+│   │   │   │   ├── index.html
+│   │   │   │   ├── index.xml
+│   │   │   │   └── page
+│   │   │   │       └── 1
+│   │   │   │           └── index.html
+│   │   │   ├── index.html
+│   │   │   ├── index.xml
+│   │   │   ├── italian
+│   │   │   │   ├── index.html
+│   │   │   │   ├── index.xml
+│   │   │   │   ├── lasagne-al-forno
+│   │   │   │   │   └── index.html
+│   │   │   │   └── page
+│   │   │   │       └── 1
+│   │   │   │           └── index.html
+│   │   │   └── page
+│   │   │       └── 1
+│   │   │           └── index.html
+│   │   ├── dessert
+│   │   │   ├── index.html
+│   │   │   ├── index.xml
+│   │   │   └── page
+│   │   │       └── 1
+│   │   │           └── index.html
+│   │   ├── index.html
+│   │   ├── index.json
+│   │   ├── index.xml
+│   │   ├── page
+│   │   │   └── 1
+│   │   │       └── index.html
+│   │   ├── sitemap.xml
+│   │   └── tags
+│   │       ├── asiatisch
+│   │       │   ├── index.html
+│   │       │   ├── index.xml
+│   │       │   └── page
+│   │       │       └── 1
+│   │       │           └── index.html
+│   │       ├── auflauf
+│   │       │   ├── index.html
+│   │       │   ├── index.xml
+│   │       │   └── page
+│   │       │       └── 1
+│   │       │           └── index.html
+│   │       ├── beilage
+│   │       │   ├── index.html
+│   │       │   ├── index.xml
+│   │       │   └── page
+│   │       │       └── 1
+│   │       │           └── index.html
+│   │       ├── brokkoli
+│   │       │   ├── index.html
+│   │       │   ├── index.xml
+│   │       │   └── page
+│   │       │       └── 1
+│   │       │           └── index.html
+│   │       ├── chutney
+│   │       │   ├── index.html
+│   │       │   ├── index.xml
+│   │       │   └── page
+│   │       │       └── 1
+│   │       │           └── index.html
+│   │       ├── curry
+│   │       │   ├── index.html
+│   │       │   ├── index.xml
+│   │       │   └── page
+│   │       │       └── 1
+│   │       │           └── index.html
+│   │       ├── deutsch
+│   │       │   ├── index.html
+│   │       │   ├── index.xml
+│   │       │   └── page
+│   │       │       └── 1
+│   │       │           └── index.html
+│   │       ├── einfach
+│   │       │   ├── index.html
+│   │       │   ├── index.xml
+│   │       │   └── page
+│   │       │       └── 1
+│   │       │           └── index.html
+│   │       ├── familienrezept
+│   │       │   ├── index.html
+│   │       │   ├── index.xml
+│   │       │   └── page
+│   │       │       └── 1
+│   │       │           └── index.html
+│   │       ├── hackfleisch
+│   │       │   ├── index.html
+│   │       │   ├── index.xml
+│   │       │   └── page
+│   │       │       └── 1
+│   │       │           └── index.html
+│   │       ├── hauptgericht
+│   │       │   ├── index.html
+│   │       │   ├── index.xml
+│   │       │   └── page
+│   │       │       └── 1
+│   │       │           └── index.html
+│   │       ├── index.html
+│   │       ├── index.xml
+│   │       ├── indisch
+│   │       │   ├── index.html
+│   │       │   ├── index.xml
+│   │       │   └── page
+│   │       │       └── 1
+│   │       │           └── index.html
+│   │       ├── italienisch
+│   │       │   ├── index.html
+│   │       │   ├── index.xml
+│   │       │   └── page
+│   │       │       └── 1
+│   │       │           └── index.html
+│   │       ├── kartoffeln
+│   │       │   ├── index.html
+│   │       │   ├── index.xml
+│   │       │   └── page
+│   │       │       └── 1
+│   │       │           └── index.html
+│   │       ├── klassiker
+│   │       │   ├── index.html
+│   │       │   ├── index.xml
+│   │       │   └── page
+│   │       │       └── 1
+│   │       │           └── index.html
+│   │       ├── kokosmilch
+│   │       │   ├── index.html
+│   │       │   ├── index.xml
+│   │       │   └── page
+│   │       │       └── 1
+│   │       │           └── index.html
+│   │       ├── paneer
+│   │       │   ├── index.html
+│   │       │   ├── index.xml
+│   │       │   └── page
+│   │       │       └── 1
+│   │       │           └── index.html
+│   │       ├── pasta
+│   │       │   ├── index.html
+│   │       │   ├── index.xml
+│   │       │   └── page
+│   │       │       └── 1
+│   │       │           └── index.html
+│   │       ├── reis
+│   │       │   ├── index.html
+│   │       │   ├── index.xml
+│   │       │   └── page
+│   │       │       └── 1
+│   │       │           └── index.html
+│   │       ├── sauce
+│   │       │   ├── index.html
+│   │       │   ├── index.xml
+│   │       │   └── page
+│   │       │       └── 1
+│   │       │           └── index.html
+│   │       ├── schnell
+│   │       │   ├── index.html
+│   │       │   ├── index.xml
+│   │       │   └── page
+│   │       │       └── 1
+│   │       │           └── index.html
+│   │       ├── spinat
+│   │       │   ├── index.html
+│   │       │   ├── index.xml
+│   │       │   └── page
+│   │       │       └── 1
+│   │       │           └── index.html
+│   │       ├── thai
+│   │       │   ├── index.html
+│   │       │   ├── index.xml
+│   │       │   └── page
+│   │       │       └── 1
+│   │       │           └── index.html
+│   │       └── vegetarisch
+│   │           ├── index.html
+│   │           ├── index.xml
+│   │           └── page
+│   │               └── 1
+│   │                   └── index.html
+│   ├── en
+│   │   ├── index.html
+│   │   └── sitemap.xml
+│   ├── images
+│   │   └── banner.png
+│   ├── index.html
+│   ├── index.json
+│   ├── index.xml
+│   ├── it
+│   │   ├── 404.html
+│   │   ├── categories
+│   │   │   ├── index.html
+│   │   │   └── index.xml
+│   │   ├── index.html
+│   │   ├── index.json
+│   │   ├── index.xml
+│   │   ├── page
+│   │   │   └── 1
+│   │   │       └── index.html
+│   │   ├── search
+│   │   │   └── index.html
+│   │   ├── sitemap.xml
+│   │   └── tags
+│   │       ├── index.html
+│   │       └── index.xml
+│   ├── page
+│   │   └── 1
+│   │       └── index.html
+│   ├── search
+│   │   └── index.html
+│   ├── sitemap.xml
+│   └── tags
+│       ├── index.html
+│       └── index.xml
+├── README.md
+├── resources
+│   └── _gen
+│       └── images
+│           └── de
+│               └── cooking
+│                   ├── asian
+│                   │   ├── chutneys
+│                   │   │   ├── chutneys_hu_46c30818dc75f3b7.png
+│                   │   │   ├── chutneys_hu_48fcf7add1a37413.png
+│                   │   │   └── chutneys_hu_8a1e5ad9b99f9fff.png
+│                   │   ├── gebratener-eierreis
+│                   │   │   ├── gebratener-eierreis_hu_a0320b0807f7156a.png
+│                   │   │   ├── gebratener-eierreis_hu_a148a03acea7e0a5.png
+│                   │   │   └── gebratener-eierreis_hu_ead02aa1ead8afae.png
+│                   │   ├── palak-paneer
+│                   │   │   ├── palak-paneer_hu_53aed921317eb5e1.png
+│                   │   │   ├── palak-paneer_hu_8edfa947c1e9ced.png
+│                   │   │   └── palak-paneer_hu_bde2f82efcbe7654.png
+│                   │   └── thai-curry-vegetarisch
+│                   │       ├── thai-curry-vegetarisch_hu_51bedb200fc172c0.jpg
+│                   │       ├── thai-curry-vegetarisch_hu_71a36b2f3f35fc10.jpg
+│                   │       ├── thai-curry-vegetarisch_hu_738bd84a6beb286f.jpg
+│                   │       ├── thai-curry-vegetarisch_hu_c8fd76183bf08fd5.jpg
+│                   │       └── thai-curry-vegetarisch_hu_e2f39f95b18ca865.jpg
+│                   └── german
+│                       └── brokkoli-kartoffel-auflauf
+│                           ├── brokkoli-kartoffel-auflauf_hu_164539c72ca214a7.jpg
+│                           ├── brokkoli-kartoffel-auflauf_hu_5e23304d609e91d1.jpg
+│                           ├── brokkoli-kartoffel-auflauf_hu_905e36eec0ec509.jpg
+│                           ├── brokkoli-kartoffel-auflauf_hu_bb30d4eae42a8ad.jpg
+│                           └── brokkoli-kartoffel-auflauf_hu_fb26db478c162c4d.jpg
+├── static
+│   └── images
+│       └── banner.png
+├── themes
+└── tree.txt
+
+168 directories, 270 files

@@ -46,7 +46,7 @@ jobs:
         run: npm install --save-dev postcss-cli autoprefixer
 
       - name: Build Hugo site
-        run: hugo # PaperMod theme might need PostCSS build step before this if not integrated
+        run: hugo --environment production # PaperMod theme might need PostCSS build step before this if not integrated
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

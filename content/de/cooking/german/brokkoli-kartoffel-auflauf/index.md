@@ -12,7 +12,6 @@ cover:
     image: "/recipes/images/brokkoli-kartoffel-auflauf.jpg" # Der Pfad stimmt, wenn das Bild in /static/images/ liegt
     alt: "Brokkoli-Kartoffelauflauf in einer Auflaufform"
     caption: "Cremig, herzhaft und perfekt für die ganze Familie"
-    relative: false
 ---
 # Brokkoli-Kartoffelauflauf
 

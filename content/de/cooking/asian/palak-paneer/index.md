@@ -8,7 +8,6 @@ cover:
     image: "palak-paneer.png" # Der Pfad stimmt, wenn das Bild in /static/images/ liegt
     alt: "Palak Paneer in einer Schale serviert"
     caption: "Cremig, würzig und einfach köstlich"
-    relative: false
 draft: false
 ---
 

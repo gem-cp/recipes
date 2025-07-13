@@ -1,6 +1,6 @@
 baseURL = "https://gem-cp.github.io/recipes/"
 languageCode = "de-de"
-title = "Meine Rezeptsammlung"
+title = "Rezepte"
 #canonifyURLs = true
 
 enableGitInfo = true
@@ -33,63 +33,141 @@ enableGitInfoURL = true
   #TocOpen = false
   EnableInstantClick = true
 
-[params.search]
-  enable = true
+  [params.search]
+    enable = true
 
   #[params.homeInfoParams]
-[params.profile]
-  enable = true
-  imageUrl = "/images/mein-profilbild.jpg" # Optional: Lade ein Bild nach /static/images/
-  title = "Meine Rezeptsammlung"
-  subtitle = "Herzlich willkommen! Hier findest du einfache und leckere Rezepte aus aller Welt. Viel Spaß beim Stöbern und Nachkochen."
+  [params.profile]
+    enable = true
+    imageUrl = "/images/mein-profilbild.jpg" # Optional: Lade ein Bild nach /static/images/
+    title = "Meine Rezeptsammlung"
+    subtitle = "Herzlich willkommen! Hier findest du einfache und leckere Rezepte aus aller Welt. Viel Spaß beim Stöbern und Nachkochen."
   
-[[params.profile.buttons]]
-  name = "Alle Rezepte"
-  url = "/archives" # PaperMod hat eine eingebaute Archiv-Seite
-[[params.profile.buttons]]
-  name = "Über mich"
-  url = "/about" # Verlinkt zu deiner "about.md"
+    [[params.profile.buttons]]
+      name = "Alle Rezepte"
+      url = "/archives" # PaperMod hat eine eingebaute Archiv-Seite
+    [[params.profile.buttons]]
+      name = "Über mich"
+      url = "/about" # Verlinkt zu deiner "about.md"
 
 [taxonomies]
   tag = "tags"
   category = "categories"
 
+#[permalinks]
+#  cooking = "/:section/:title/"
+#  baking = "/:section/:title/"
+#  dessert = "/:section/:title/"
+
+# --- SPRACHEINSTELLUNGEN ---
 [languages]
   [languages.de]
-    contentDir = 'content/german'
+    contentDir = 'content/de'
     languageName = 'Deutsch'
     weight = 10
+    title = "Rezepte"
+    [languages.de.params]
+      author = "Christian Plagens"
+      description = "Eine Sammlung meiner Lieblingsrezepte."
+      [languages.de.params.profile]
+        # ... dein deutsches Profil ...
+    # Menü für Deutsch
+    [[languages.de.menu.main]]
+      identifier = "cooking-de" # Eindeutige ID für den Hauptpunkt
+      name = "Kochen"
+      url = "cooking/" # Link zur Übersichtsseite "Kochen"
+      weight = 10
+
+      # --- Kinder von "Kochen" ---
+      [[languages.de.menu.main]]
+        identifier = "asian-de"
+        name = "Asiatisch"
+        url = "/de/cooking/asian/" # Vollständiger Pfad
+        parent = "cooking-de"     # <-- HIER IST DIE MAGIE!
+        weight = 10
+      [[languages.de.menu.main]]
+        identifier = "german-de"
+        name = "Deutsch"
+        url = "/de/cooking/german/" # Vollständiger Pfad
+        parent = "cooking-de"
+        weight = 20
+      [[languages.de.menu.main]]
+        identifier = "italian-de" 
+        name = "Italienisch"
+        url = "/de/cooking/italian/" # Vollständiger Pfad
+        parent = "cooking-de"
+        weight = 30
+
+    [[languages.de.menu.main]]
+      identifier = "baking-de" # Hauptpunkt "Backen"
+      name = "Backen"
+      url = "baking/"
+      weight = 20
+      # Hier könntest du später Kinder für "Backen" hinzufügen, z.B.
+      # [[languages.de.menu.main]]
+      #   name = "Kuchen"
+      #   url = "/de/baking/kuchen/"
+      #   parent = "baking-de"
+      #   weight = 10
+
+    [[languages.de.menu.main]]
+      identifier = "dessert-de" # Hauptpunkt "Desserts"
+      name = "Desserts"
+      url = "dessert/"
+      weight = 30
+      # ggf. Kinder für "Desserts"
+
+# --- Andere Menüpunkte bleiben gleich ---
+[[languages.de.menu.main]]
+  identifier = "search-de"
+  name = "Suche"
+  url = "/de/search/"
+  weight = 110
+[[languages.de.menu.main]]
+  identifier = "tags-de"
+  name = "Tags"
+  url = "/de/tags/"
+  weight = 120
+    #[[languages.de.menu.main]]
+    #  identifier = "asian-de" # Eindeutige ID
+    #  name = "Asiatisch"
+    #  url = "cooking/asian/"
+    #  weight = 10
+    #[[languages.de.menu.main]]
+    #  identifier = "german-de" # Eindeutige ID
+    #  name = "Deutsch"
+    #  url = "cooking/german/"
+    #  weight = 20
+    #[[languages.de.menu.main]]
+    #  identifier = "italian-de" # Eindeutige ID 
+    #  name = "Italienisch"
+    #  url = "cooking/italian/"
+    #  weight = 30
+    #[[languages.de.menu.main]]
+    #  identifier = "search-de" # Eindeutige ID
+    #  name = "Suche"
+    #  url = "search/"
+    #  weight = 110
+    #[[languages.de.menu.main]]
+    #  identifier = "tags-de" # Eindeutige ID
+    #  name = "Tags"
+    #  url = "tags/"
+    #  weight = 120
+
   [languages.en]
-    contentDir = 'content/english'
+    contentDir = 'content/en'
     languageName = 'English'
     weight = 20
+    title = "Recipes"
+    # Menü für Englisch
+    [[languages.en.menu.main]]
+      identifier = "asian-en" # Eindeutige ID
+      name = "Asian"
+      url = "asian/"
+      weight = 10
+    # ... weitere englische Menüpunkte
+
   [languages.it]
-    contentDir = 'content/italian'
+    contentDir = 'content/it'
     languageName = 'Italiano'
     weight = 30
-
-[menu]
-  [[menu.main]]
-    identifier = "asian-menu"
-    name = "Asiatische Rezepte"
-    url = "/asian/"
-    weight = 10
-  [[menu.main]]
-    identifier = "german-menu"
-    name = " Deutsche Rezepte"
-    url = "/german/"
-    weight = 20
-  [[menu.main]]
-    identifier = "italian-menu"
-    name = " Italienische Rezepte"
-    url = "/italian/"
-    weight = 30
-  [[menu.main]]
-    name = "Suche"
-    url = "/search/"
-    weight = 110
-  [[menu.main]]
-    identifier = "tags"
-    name = "Tags"
-    url = "/tags/"
-    weight = 120

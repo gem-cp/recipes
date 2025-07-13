@@ -8,7 +8,6 @@ cover:
     image: "chutneys.png" # Der Pfad stimmt, wenn das Bild in /static/images/ liegt
     alt: "Indische Chutneys in kleinen Schälchen"
     caption: "Eine Auswahl an würzigen und aromatischen Chutneys"
-    relative: false
 draft: false
 ---
 

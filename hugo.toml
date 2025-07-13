@@ -54,11 +54,6 @@ enableGitInfoURL = true
   tag = "tags"
   category = "categories"
 
-#[permalinks]
-#  cooking = "/:section/:title/"
-#  baking = "/:section/:title/"
-#  dessert = "/:section/:title/"
-
 # --- SPRACHEINSTELLUNGEN ---
 [languages]
   [languages.de]
@@ -117,42 +112,17 @@ enableGitInfoURL = true
       weight = 30
       # ggf. Kinder für "Desserts"
 
-# --- Andere Menüpunkte bleiben gleich ---
-[[languages.de.menu.main]]
-  identifier = "search-de"
-  name = "Suche"
-  url = "/de/search/"
-  weight = 110
-[[languages.de.menu.main]]
-  identifier = "tags-de"
-  name = "Tags"
-  url = "/de/tags/"
-  weight = 120
-    #[[languages.de.menu.main]]
-    #  identifier = "asian-de" # Eindeutige ID
-    #  name = "Asiatisch"
-    #  url = "cooking/asian/"
-    #  weight = 10
-    #[[languages.de.menu.main]]
-    #  identifier = "german-de" # Eindeutige ID
-    #  name = "Deutsch"
-    #  url = "cooking/german/"
-    #  weight = 20
-    #[[languages.de.menu.main]]
-    #  identifier = "italian-de" # Eindeutige ID 
-    #  name = "Italienisch"
-    #  url = "cooking/italian/"
-    #  weight = 30
-    #[[languages.de.menu.main]]
-    #  identifier = "search-de" # Eindeutige ID
-    #  name = "Suche"
-    #  url = "search/"
-    #  weight = 110
-    #[[languages.de.menu.main]]
-    #  identifier = "tags-de" # Eindeutige ID
-    #  name = "Tags"
-    #  url = "tags/"
-    #  weight = 120
+    # --- Andere Menüpunkte bleiben gleich ---
+    [[languages.de.menu.main]]
+      identifier = "search-de"
+      name = "Suche"
+      url = "search/"
+      weight = 110
+    [[languages.de.menu.main]]
+      identifier = "tags-de"
+      name = "Tags"
+      url = "tags/"
+      weight = 120
 
   [languages.en]
     contentDir = 'content/en'
@@ -165,9 +135,64 @@ enableGitInfoURL = true
       name = "Asian"
       url = "asian/"
       weight = 10
-    # ... weitere englische Menüpunkte
 
   [languages.it]
     contentDir = 'content/it'
     languageName = 'Italiano'
     weight = 30
+    title = "Recipes"
+    # Menü für Italienisch
+    [[languages.it.menu.main]]
+      identifier = "cooking-it" # Eindeutige ID für den Hauptpunkt
+      name = "Cucina"
+      url = "cooking/" # Link zur Übersichtsseite "Cucina"
+      weight = 10
+
+      # --- Kinder von "Cucina" ---
+      [[languages.it.menu.main]]
+        identifier = "asian-it"
+        name = "Asiatico"
+        url = "/it/cooking/asian/" # Vollständiger Pfad
+        parent = "cooking-it"     # <-- HIER IST DIE MAGIE!
+        weight = 10
+      [[languages.it.menu.main]]
+        identifier = "german-it"
+        name = "Tedesco"
+        url = "/it/cooking/german/" # Vollständiger Pfad
+        parent = "cooking-it"
+        weight = 20
+      [[languages.it.menu.main]]
+        identifier = "italian-it" 
+        name = "Italiano"
+        url = "/it/cooking/italian/" # Vollständiger Pfad
+        parent = "cooking-it"
+        weight = 30
+
+    [[languages.it.menu.main]]
+      identifier = "baking-it" # Hauptpunkt "Dolci"
+      name = "Dolci"
+      url = "baking/"
+      weight = 20
+
+    [[languages.it.menu.main]]
+      identifier = "dessert-it" # Hauptpunkt "Desserts"
+      name = "Desserts"
+      url = "dessert/"
+      weight = 30
+
+    [[languages.it.menu.main]]
+      identifier = "search-it"
+      name = "Ricerca"
+      url = "search/"
+      weight = 110
+    [[languages.it.menu.main]]
+      identifier = "tags-it"
+      name = "Tag"
+      url = "tags/"
+      weight = 120
+    [[languages.it.menu.main]]
+      identifier = "asian-it" # Eindeutige ID
+      name = "Asiatisch"
+      url = "asian/"
+      weight = 10
+    # ... weitere italienische Menüpunkte

@@ -8,15 +8,15 @@
 /* Der Hauptcontainer einer einzelnen Rezeptseite wird zum Grid */
 .post-single {
   display: grid;
-    grid-template-columns: 180px 1fr; 
-    /* Abstand zwischen den Spalten */
-    /*
-    /* Vertikal am Anfang ausrichten */
-    align-items: start;
-    /* Standard-Abstand unten für jeden Eintrag */
-    margin-bottom: 40px; 
+  grid-template-columns: 200px 1fr; 
+  /* Abstand zwischen den Spalten */
+  /*
+  /* Vertikal am Anfang ausrichten */
+  align-items: start;
+  /* Standard-Abstand unten für jeden Eintrag */
+  margin-bottom: 0px; 
   grid-template-rows: auto auto auto; /* 3 Zeilen */
-  gap: 10px; /* optionaler Abstand */
+  gap: 20px; /* optionaler Abstand */
   align-items: start;
 }
 
@@ -27,6 +27,8 @@
 }
 
 .post-header {
+  margin-top: 0px;
+  margin-bottom: 0px;
   grid-column: 2;
   grid-row: 1;
 }
@@ -38,6 +40,7 @@
 }
 
 .post-footer {
+  margin-top: 0px;
   grid-column: 1 / 3; /* beide Spalten */
   grid-row: 3;
 }
@@ -47,15 +50,14 @@
 /* Der Hauptcontainer für einen Eintrag */
 .post-entry {
   display: grid;
-    grid-template-columns: 180px 1fr; 
-    /* Abstand zwischen den Spalten */
-    gap: 24px;
-    /* Vertikal am Anfang ausrichten */
-    align-items: start;
-    /* Standard-Abstand unten für jeden Eintrag */
-    margin-bottom: 40px; 
+  grid-template-columns: 180px 1fr; 
+  /* Vertikal am Anfang ausrichten */
+  align-items: start;
+  /* Standard-Abstand unten für jeden Eintrag */
+  margin-bottom: 12px; 
   grid-template-rows: auto auto auto; /* 3 Zeilen */
-  gap: 10px; /* optionaler Abstand */
+  /* Abstand zwischen den Spalten */
+  gap: 20px; /* optionaler Abstand */
   align-items: start;
 }
 
@@ -77,4 +79,18 @@
 .entry-footer {
   grid-row: 3;
   grid-column: 2;
+}
+
+/* --- Layout für ALLE TAGSEITEN (Bild links, Text rechts) --- */
+.post-entry.tag-entry .entry-cover {
+  display: block;
+  grid-column: 1;
+  grid-row: 1 / 4;
+  width: 100%;
+}
+
+.post-entry.tag-entry .entry-cover img {
+  display: block;
+  width: 100%;
+  height: auto;
 }

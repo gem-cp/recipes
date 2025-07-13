@@ -11,11 +11,13 @@ cover:
 draft: false
 ---
 
+---
+
 Dieses vegetarische Thai-Curry ist ein aromatisches und sättigendes Gericht, das in weniger als 45 Minuten zubereitet ist. Es kombiniert die cremige Süße der Kokosmilch mit der würzigen Schärfe von roter Currypaste und einer Fülle an frischem Gemüse. Perfekt für ein schnelles Abendessen unter der Woche oder ein gemütliches Essen am Wochenende.
 
-**Zubereitungszeit:** ca. 15 Minuten
-**Kochzeit:** ca. 20-30 Minuten
-**Portionen:** 4
+- **Zubereitungszeit:** ca. 15 Minuten
+- **Kochzeit:** ca. 20-30 Minuten
+- **Portionen:** 4
 
 ## Zutaten
 

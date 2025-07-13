@@ -11,11 +11,11 @@ cover:
 draft: false
 ---
 
-**Ergibt:** ca. 2-3 Portionen
+---
 
-**Vorbereitungszeit:** 15 Minuten
-
-**Kochzeit:** 10-15 Minuten
+- **Ergibt:** ca. 2-3 Portionen
+- **Vorbereitungszeit:** 15 Minuten
+- **Kochzeit:** 10-15 Minuten
 
 ## Zutaten
 
@@ -24,10 +24,12 @@ draft: false
 * **Gemüse (ca. 1.5 - 2 Tassen insgesamt, fein gewürfelt/gehackt):**
   * 1 kleine Zwiebel, fein gewürfelt
   * 2 Knoblauchzehen, fein gehackt
-  * 1 Karotte, fein gewürfelt
-  * 1/2 Tasse Erbsen (TK oder frisch)
-  * 1/2 Tasse Mais (TK oder aus der Dose, abgetropft)
-  * Optional: 1/2 Paprika (rot oder grün), fein gewürfelt; ein paar Brokkoliröschen, klein geschnitten; Pilze, in Scheiben; Frühlingszwiebeln, in Ringe geschnitten (weiße und grüne Teile getrennt)
+  * 1 Karotte, in feine Streifen geschnitten oder geraspelt
+  * 1/2 Tasse grüne Bohnen, in kleine Stücke geschnitten
+  * Mungobohnen (frisch)
+  * 1/2 Paprika (rot oder gelb), fein gewürfelt
+  * Pilze (Champignons), klein geschnitten, in Scheiben;
+  * Frühlingszwiebeln, in Ringe geschnitten (weiße und grüne Teile getrennt)
 * **Ei:**
   * 2 große Eier, leicht verquirlt
 * **Sauce & Gewürze:**

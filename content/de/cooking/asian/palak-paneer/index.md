@@ -11,6 +11,8 @@ cover:
 draft: false
 ---
 
+---
+
 Dieses Rezept zeigt dir, wie du ein Palak Paneer zubereitest, das so gut schmeckt wie im Restaurant – mit einer leuchtend grünen Farbe und einem tiefen, würzigen Aroma.
 
 - **Vorbereitungszeit:** 20 Minuten

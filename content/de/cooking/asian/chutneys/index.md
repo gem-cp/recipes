@@ -11,6 +11,8 @@ cover:
 draft: false
 ---
 
+---
+
 Chutneys sind eine wichtige Komponente der indischen Küche und werden oft als Beilage zu verschiedenen Gerichten serviert. Sie können frisch, gekocht oder eingelegt sein und reichen von süß über sauer bis scharf. Hier sind typische indische Chutneys, die häufig in Restaurants serviert werden.
 
 Die Saucen sind typische indische Chutneys, die in kleinen Schälchen serviert werden:

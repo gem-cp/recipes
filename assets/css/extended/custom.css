@@ -6,23 +6,46 @@
     margin: 20px auto;
 }
 
-/* --- Layout für LISTENSEITEN (Bild links, Text rechts) --- */
+/* --- Layout für ALLE LISTENSEITEN --- */
+
+/* Der Hauptcontainer für einen Eintrag */
 .post-entry {
-    display: flex;           /* Aktiviere Flexbox */
-    align-items: flex-start; /* Elemente oben ausrichten */
-    gap: 24px;               /* Abstand zwischen Bild und Text */
+    /* Wir verwenden jetzt "Grid", das ist moderner und oft besser für Seitenlayouts */
+    display: grid;
+    /* Definiert zwei Spalten: 180px für das Bild, der Rest (1fr) für den Text */
+    grid-template-columns: 180px 1fr; 
+    /* Abstand zwischen den Spalten */
+    gap: 24px;
+    /* Vertikal am Anfang ausrichten */
+    align-items: start;
+    /* Standard-Abstand unten für jeden Eintrag */
+    margin-bottom: 40px; 
 }
 
+/* Der Bild-Container */
 .post-entry .entry-cover {
-    flex: 0 0 180px;         /* Bild-Container: Feste Breite */
+    /* Diese Regel ist nicht mehr nötig, da Grid das Layout steuert */
+    width: 100%; /* Das Bild soll die 180px der Grid-Spalte ausfüllen */
     margin: 0;
 }
 
-/* 
-  Hier ist die finale Regel:
-  Unser neuer Wrapper bekommt den ganzen restlichen Platz.
-*/
-.post-entry .entry-text-wrapper {
-    flex: 1;                 /* Nimm allen verfügbaren Platz ein */
-    min-width: 0;            /* Wichtiger Trick, damit der Titel umbrechen kann */
+/* Der Titel-Container */
+.post-entry .entry-header {
+    /* Ordne den Titel der zweiten Spalte zu und platziere ihn in der ersten Zeile */
+    grid-column: 2;
+    grid-row: 1;
+}
+
+/* Der Beschreibungs-Container */
+.post-entry .entry-content {
+    /* Zweite Spalte, zweite Zeile */
+    grid-column: 2;
+    grid-row: 2;
+}
+
+/* Der Datums-Container */
+.post-entry .entry-footer {
+    /* Zweite Spalte, dritte Zeile */
+    grid-column: 2;
+    grid-row: 3;
 }

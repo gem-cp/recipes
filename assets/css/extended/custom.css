@@ -10,9 +10,7 @@
 
 /* Der Hauptcontainer für einen Eintrag */
 .post-entry {
-    /* Wir verwenden jetzt "Grid", das ist moderner und oft besser für Seitenlayouts */
-    display: grid;
-    /* Definiert zwei Spalten: 180px für das Bild, der Rest (1fr) für den Text */
+  display: grid;
     grid-template-columns: 180px 1fr; 
     /* Abstand zwischen den Spalten */
     gap: 24px;
@@ -20,32 +18,27 @@
     align-items: start;
     /* Standard-Abstand unten für jeden Eintrag */
     margin-bottom: 40px; 
+  grid-template-rows: auto auto auto; /* 3 Zeilen */
+  gap: 10px; /* optionaler Abstand */
+  align-items: start;
 }
 
-/* Der Bild-Container */
-.post-entry .entry-cover {
-    /* Diese Regel ist nicht mehr nötig, da Grid das Layout steuert */
-    width: 100%; /* Das Bild soll die 180px der Grid-Spalte ausfüllen */
-    margin: 0;
+.entry-cover {
+  grid-row: 1 / 4;  /* geht über 3 Zeilen */
+  grid-column: 1;
 }
 
-/* Der Titel-Container */
-.post-entry .entry-header {
-    /* Ordne den Titel der zweiten Spalte zu und platziere ihn in der ersten Zeile */
-    grid-column: 2;
-    grid-row: 1;
+.entry-header {
+  grid-row: 1;
+  grid-column: 2;
 }
 
-/* Der Beschreibungs-Container */
-.post-entry .entry-content {
-    /* Zweite Spalte, zweite Zeile */
-    grid-column: 2;
-    grid-row: 2;
+.entry-content {
+  grid-row: 2;
+  grid-column: 2;
 }
 
-/* Der Datums-Container */
-.post-entry .entry-footer {
-    /* Zweite Spalte, dritte Zeile */
-    grid-column: 2;
-    grid-row: 3;
+.entry-footer {
+  grid-row: 3;
+  grid-column: 2;
 }

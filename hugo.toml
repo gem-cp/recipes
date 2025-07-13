@@ -72,7 +72,7 @@ enableGitInfoURL = true
     weight = 30
   [[menu.main]]
     name = "Suche"
-    url = "search/"
+    url = "/search/"
     weight = 110
   [[menu.main]]
     identifier = "tags"

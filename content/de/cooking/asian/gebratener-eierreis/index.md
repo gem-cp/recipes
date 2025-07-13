@@ -12,7 +12,9 @@ draft: false
 ---
 
 **Ergibt:** ca. 2-3 Portionen
+
 **Vorbereitungszeit:** 15 Minuten
+
 **Kochzeit:** 10-15 Minuten
 
 ## Zutaten

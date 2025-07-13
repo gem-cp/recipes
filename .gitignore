@@ -259,3 +259,6 @@ Desktop.ini
 
 
 node_modules/
+
+hugo
+hugo_extended_*.tar.gz

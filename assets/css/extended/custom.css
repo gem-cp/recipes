@@ -1,0 +1,28 @@
+/* assets/css/extended/custom.css */
+
+/* --- Layout für EINZELSEITEN (Bild zentriert, 50% breit) --- */
+.post-single .entry-cover {
+    width: 50%;
+    margin: 20px auto;
+}
+
+/* --- Layout für LISTENSEITEN (Bild links, Text rechts) --- */
+.post-entry {
+    display: flex;           /* Aktiviere Flexbox */
+    align-items: flex-start; /* Elemente oben ausrichten */
+    gap: 24px;               /* Abstand zwischen Bild und Text */
+}
+
+.post-entry .entry-cover {
+    flex: 0 0 180px;         /* Bild-Container: Feste Breite */
+    margin: 0;
+}
+
+/* 
+  Hier ist die finale Regel:
+  Unser neuer Wrapper bekommt den ganzen restlichen Platz.
+*/
+.post-entry .entry-text-wrapper {
+    flex: 1;                 /* Nimm allen verfügbaren Platz ein */
+    min-width: 0;            /* Wichtiger Trick, damit der Titel umbrechen kann */
+}
